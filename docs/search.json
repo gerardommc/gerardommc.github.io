@@ -6,7 +6,7 @@
       "description": "Aquí encontrarás información relacionada con la investigación que hacemos",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-18T16:39:21-05:00"
+      "last_modified": "2021-05-19T13:09:04-05:00"
     },
     {
       "path": "cursos_lic.html",
@@ -14,7 +14,7 @@
       "description": "Contenidos de los cursos de licenciatura ofrecidos por el laboratorio",
       "author": [],
       "contents": "\nPlaneación y análisis de experimentos\n\n\n\n",
-      "last_modified": "2021-05-18T16:39:21-05:00"
+      "last_modified": "2021-05-19T13:09:04-05:00"
     },
     {
       "path": "cursos_posg.html",
@@ -22,15 +22,15 @@
       "description": "Contenidos de los cursos de posgrado",
       "author": [],
       "contents": "\nAlgo por aquí\n\n\n\n",
-      "last_modified": "2021-05-18T16:39:22-05:00"
+      "last_modified": "2021-05-19T13:09:05-05:00"
     },
     {
       "path": "index.html",
-      "title": "Ecología cuantitativa y aplicada",
+      "title": "Gerardo Martín",
       "description": "¡Bienvenido vistante!\n",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-05-18T16:40:33-05:00"
+      "contents": "\n\n          \n          \n          \n          \n          Gerardo Martín\n          \n          \n          Home\n          Acerca\n          \n          \n          Integrantes\n           \n          ▾\n          \n          \n          Activos\n          Históricos\n          \n          \n          Publicaciones\n          \n          \n          Cursos\n           \n          ▾\n          \n          \n          Licenciatura\n          Posgrado\n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Gerardo Martín\n            \n            \n              \n                \n                    \n                      \n                        Publicaciones\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Bio\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Gerardo Martín\n            \n            \n              \n                \n                                    \n                    \n                      Publicaciones\n                    \n                  \n                                    \n                    \n                      Bio\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                  \n              \n            \n            \n              \n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-05-19T13:09:44-05:00"
     },
     {
       "path": "publicaciones.html",
@@ -38,7 +38,7 @@
       "description": "Artículos científicos publicados por miembros y colaboradores",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-18T16:39:22-05:00"
+      "last_modified": "2021-05-19T13:09:05-05:00"
     }
   ],
   "collections": []

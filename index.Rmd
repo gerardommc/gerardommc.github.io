@@ -1,8 +1,19 @@
 ---
-title: "Ecología cuantitativa y aplicada"
+title: "Gerardo Martín"
 description: |
   ¡Bienvenido vistante!
+image: "imagenes/yo.png"
+links:
+  - label: Publicaciones
+    url: "publicaciones.html"
+  - label: Bio
+    url: "biografia.html"
+  - label: GitHub
+    url: "https://github.com/gerardommc"
+base_url: https://distillery.rbind.io/
+preview: images/distillery.png
 site: distill::distill_website
+output: postcards::trestles
 ---
 
 ```{r setup, include=FALSE}
