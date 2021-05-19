@@ -7,7 +7,7 @@ navbar:
   logo:
     image: logo.png
   right:
-    - text: "Home"
+    - text: "Hogar"
       href: index.html
     - text: "Acerca"
       href: about.html

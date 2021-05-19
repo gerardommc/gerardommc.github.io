@@ -27,3 +27,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+Soy veterinario por la Universidad de La Salle Bajío, maestro en ciencias en biología de conservación por el Instituto de Ecología A. C. y doctor en filosofía en salud pública por la James Cook University (Australia). Mis trabajos de investigación se centran en la aplicación de diversas teorías ecológicas y métodos cuantitativos para resolver problemáticas en salud pública y conservación.
