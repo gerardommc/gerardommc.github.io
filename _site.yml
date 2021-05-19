@@ -11,15 +11,21 @@ navbar:
       href: index.html
     - text: "Acerca"
       href: about.html
-    - text: "Integrantes"
+    - text: "Grupo de trabajo"
       menu:
         - text: "Activos"
           href: int_activos.html
         - text: "Históricos"
           href: int_historicos.html
-    - text: "Publicaciones"
-      href: publicaciones.html
-    - text: "Cursos"
+    - text: "Investigación"
+      menu:
+        - text: "Colaboraciones"
+          href: colabs.html
+        - text: "Publicaciones"
+          href: publicaciones.html
+        - text: "Proyectos"
+          href: proeyctos.html
+    - text: "Docencia"
       menu:
         - text: "Licenciatura"
           href: cursos_lic.html
