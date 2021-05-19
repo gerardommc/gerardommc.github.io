@@ -1,0 +1,7 @@
+---
+title: "Cursos de licenciatura"
+description: |
+ Contenidos de los cursos de licenciatura ofrecidos por el laboratorio
+---
+
+- [Planeación y análisis de experimentos](https://gerardommc.github.io/Preparacion-analisis-experimentos/)
