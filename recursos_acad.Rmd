@@ -1,0 +1,17 @@
+---
+title: "Recursos académicos"
+description: |
+ Lista de recursos varios para investigación
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Escritura
+
+La escritura es la parte más complicada de un proyecto de investigación. He aquí una serie de recursos que he ido colectando y que se pueden utilizar como guía para escribir artículos o tesis de grado/posgrado. Los documentos son de naturaleza variada, desde contribuciones a blogs académicos hasta comentarios en revistas científicas:
+
+1. [How to write backwards](https://eportfolios.macaulay.cuny.edu/cornelisse14/files/2014/09/how-to-write-backwards.pdf)
+
+2. [The 5 pivotal paragraphs in a paper](https://dynamicecology.wordpress.com/2016/02/24/the-5-pivotal-paragraphs-in-a-paper/)

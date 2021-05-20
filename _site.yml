@@ -27,10 +27,12 @@ navbar:
           href: proeyctos.html
     - text: "Docencia"
       menu:
-        - text: "Licenciatura"
+        - text: "Cursos de licenciatura"
           href: cursos_lic.html
-        - text: "Posgrado"
+        - text: "Cursos de posgrado"
           href: cursos_posg.html
+        - text: "Recursos académicos"
+          href: recursos_acad.html
     - icon: fab fa-github
       href: https://github.com/gerardommc
 output: distill::distill_article
