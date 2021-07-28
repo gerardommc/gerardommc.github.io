@@ -1,11 +1,11 @@
 name: "gerardommc.github.io"
-title: "Gerardo Martín"
+title: "Ecología espacial y aplicada"
 description: |
   Ecologia-cuantitativa
 output_dir: "docs"
 navbar:
   logo:
-    image: logo.png
+    image: logo.svg
   right:
     - text: "Inicio"
       href: index.html
