@@ -8,7 +8,7 @@ output: postcards::trestles
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# En revistas arbitradas
+# Revistas arbitradas
 
 - **Gerardo Martín**, Carlos Yáñez-Arenas, Rodrigo Rangel-Camacho, Kris A Murray, Eyal Goldstein, Takuya Iwamura & Xavier Chiappa-Carrara. (2021). **Implications of global environmental change for the burden of snakebite**. *Toxicon:X*. [https://doi.org/10.1016/j.toxcx.2021.100069](https://doi.org/10.1016/j.toxcx.2021.100069). Impacto JCR: 2.2.
 
