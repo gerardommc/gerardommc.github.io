@@ -2,7 +2,14 @@
 title: "Cursos de licenciatura"
 description: |
  Contenidos de los cursos de licenciatura ofrecidos por el laboratorio
-output: distill::distill_article
+image: "imagenes/Cursos-lic.svg"
+output: postcards::trestles
 ---
 
 - [Planeación y análisis de experimentos](https://gerardommc.github.io/Preparacion-analisis-experimentos/)
+
+- [Modelos matemáticos en ecología I](https://gerardommc.github.io/Modelos-matematicos-ECO-I/)
+
+- [Modelación matemática (Ciencias Ambientales)](https://gerardommc.github.io/Modelacion-matematica-CA/)
+
+- Temas selectos de herramientas cuantitativas

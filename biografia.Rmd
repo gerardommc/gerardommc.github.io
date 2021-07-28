@@ -1,0 +1,11 @@
+---
+title: "Biografía"
+image: "imagenes/bio.svg"
+output: postcards::trestles
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Mi CV lo puedes descargar en [español](CV/cv-espanol.pdf) o en [inglés](CV/cv.pdf)

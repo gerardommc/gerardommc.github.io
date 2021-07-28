@@ -2,6 +2,7 @@
 title: "Recursos académicos"
 description: |
  Lista de recursos varios para investigación
+output: postcards::trestles
 ---
 
 ```{r setup, include=FALSE}
@@ -15,3 +16,5 @@ La escritura es la parte más complicada de un proyecto de investigación. He aq
 1. [How to write backwards](https://eportfolios.macaulay.cuny.edu/cornelisse14/files/2014/09/how-to-write-backwards.pdf)
 
 2. [The 5 pivotal paragraphs in a paper](https://dynamicecology.wordpress.com/2016/02/24/the-5-pivotal-paragraphs-in-a-paper/)
+
+3. [Ten simple rules for writing a literature review](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149)

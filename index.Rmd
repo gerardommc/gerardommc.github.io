@@ -10,8 +10,7 @@ links:
     url: "biografia.html"
   - label: GitHub
     url: "https://github.com/gerardommc"
-base_url: https://distillery.rbind.io/
-preview: images/distillery.png
+base_url: https://gerardommc.github.io/
 site: distill::distill_website
 output: postcards::trestles
 ---

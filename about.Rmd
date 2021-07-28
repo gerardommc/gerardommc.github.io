@@ -1,7 +1,8 @@
 ---
-title: "Sobre este sitio"
+title: "Sobre mi labo"
 description: |
   Aquí encontrarás información relacionada con la investigación que hacemos
+output: postcards::trestles
 ---
 
 ```{r setup, include=FALSE}

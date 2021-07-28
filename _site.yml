@@ -7,7 +7,7 @@ navbar:
   logo:
     image: logo.png
   right:
-    - text: "Hogar"
+    - text: "Inicio"
       href: index.html
     - text: "Acerca"
       href: about.html
@@ -24,7 +24,7 @@ navbar:
         - text: "Publicaciones"
           href: publicaciones.html
         - text: "Proyectos"
-          href: proeyctos.html
+          href: proyectos.html
     - text: "Docencia"
       menu:
         - text: "Cursos de licenciatura"
