@@ -19,12 +19,12 @@ navbar:
           href: int_historicos.html
     - text: "Investigación"
       menu:
-        - text: "Colaboraciones"
-          href: colabs.html
         - text: "Publicaciones"
           href: publicaciones.html
         - text: "Proyectos"
           href: proyectos.html
+        - text: "Colaboraciones"
+          href: colabs.html
     - text: "Docencia"
       menu:
         - text: "Cursos de licenciatura"

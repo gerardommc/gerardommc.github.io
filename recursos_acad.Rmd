@@ -11,10 +11,26 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Escritura
 
-La escritura es la parte más complicada de un proyecto de investigación. He aquí una serie de recursos que he ido colectando y que se pueden utilizar como guía para escribir artículos o tesis de grado/posgrado. Los documentos son de naturaleza variada, desde contribuciones a blogs académicos hasta comentarios en revistas científicas:
+La escritura es la parte más complicada de una investigación. He aquí una serie de recursos que he ido colectando y que se pueden utilizar como guía para escribir artículos o tesis de grado/posgrado. Los documentos son de naturaleza variada, desde contribuciones a blogs académicos hasta comentarios en revistas científicas:
 
 1. [How to write backwards](https://eportfolios.macaulay.cuny.edu/cornelisse14/files/2014/09/how-to-write-backwards.pdf)
 
 2. [The 5 pivotal paragraphs in a paper](https://dynamicecology.wordpress.com/2016/02/24/the-5-pivotal-paragraphs-in-a-paper/)
 
 3. [Ten simple rules for writing a literature review](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149)
+
+# Software
+
+## Ofimática
+
+Mi política personal en materia de cómputo es utilizar software libre si existen alternativas, y las suites de ofimática no son la excepción, lo que me ha mantenido lejos de MS Office. La ventaja de utilizar suites de ofimática libres es que, la mayoría, son gratis y no es necesario comprar licencias para utilizarlas.
+
+1. LibreOffice (OpenOffice es obsoleta)
+2. Onlyoffice
+3. WPS Office
+
+La más poderosa y flexible es Libreoffice, aunque las interfaces de Only y WPS son mucho más parecidas a MS Office.
+
+## Manejo de bibliografía y referencias
+
+[Zotero](https://zotero.org), no se diga más, es el reemplazo perfecto para EndNote y se puede acolpar con LibreOffice y Onlyoffice (sólo en su versión comercial).
