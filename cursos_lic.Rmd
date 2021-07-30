@@ -6,10 +6,14 @@ image: "imagenes/Cursos-lic.svg"
 output: postcards::trestles
 ---
 
-- [Planeación y análisis de experimentos](https://gerardommc.github.io/Preparacion-analisis-experimentos/)
+# Licenciatura en Manejo Sustentable de Zonas Costeras
 
-- [Modelos matemáticos en ecología I](https://gerardommc.github.io/Modelos-matematicos-ECO-I/)
+- [Planeación y análisis de experimentos (2021-2)](https://gerardommc.github.io/Preparacion-analisis-experimentos/)
 
-- [Modelación matemática (Ciencias Ambientales)](https://gerardommc.github.io/Modelacion-matematica-CA/)
+# Licenciatura en Ecología
+- [Modelos matemáticos en ecología I (2022-1)](https://gerardommc.github.io/Modelos-matematicos-ECO-I/)
+
+# Licenciatura en Ciencias Ambientales
+- [Modelación matemática (Ciencias Ambientales, 2022-1)](https://gerardommc.github.io/Modelacion-matematica-CA/)
 
 - Temas selectos de herramientas cuantitativas
