@@ -1,7 +1,6 @@
 ---
 title: "Recursos académicos"
-description: |
- Lista de recursos varios para investigación
+image: "imagenes/recursos.svg"
 output: postcards::trestles
 ---
 
