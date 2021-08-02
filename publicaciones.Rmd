@@ -14,21 +14,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Goldstein, Eyal; Erinjery, Joseph; **Martín, Gerardo**; Kasturiratne, Anuradhani; Ediriweera, Dileepa; de Silva, Janaka; Diggle, Peter; Lalloo, David; Murray, Kris A. & Takyua Iwamura. (2021). **Integrating human behavior and snake ecology with agent-based models to predict snakebite in high risk landscapes**. *PLoS Neglected Tropical Diseases*. [https://doi.org/10.1371/journal.pntd.0009047](https://doi.org/10.1371/journal.pntd.0009047). Impacto JCR: 4.4
 
-- Yáñez-Arenas, Carlos; **Mart\'in, Gerardo**; Osorio-Olvera, Luis; Escobar-Luján, Jazmín; Castaño-Quintero, Sandra & Enrique Martínez-Meyer. (2020). **The niche centrality hypothesis: key points about unfilled niches and the potential use of supraspecific modeling units**. *Biodiversity Informatics*. [https://doi.org/10.17161/bi.v15i2.13218](https://doi.org/10.17161/bi.v15i2.13218). Impacto JCR: *En proceso*.
+- Yáñez-Arenas, Carlos; **Martín, Gerardo**; Osorio-Olvera, Luis; Escobar-Luján, Jazmín; Castaño-Quintero, Sandra & Enrique Martínez-Meyer. (2020). **The niche centrality hypothesis: key points about unfilled niches and the potential use of supraspecific modeling units**. *Biodiversity Informatics*. [https://doi.org/10.17161/bi.v15i2.13218](https://doi.org/10.17161/bi.v15i2.13218). Impacto JCR: *En proceso*.
 
-- **Mart\'in, Gerardo**; Espinoza, Mario; Heupel, Michelle & Colin Simpfendorfer (2020). **Estimating marine protected area network benefits for reef sharks**. *Journal of Applied Ecology*. eISSN: 1365-2664. [https://doi.org/10.1111/1365-2664.13706](https://doi.org/10.1111/1365-2664.13706). Impacto JCR: 5.7
+- **Martín, Gerardo**; Espinoza, Mario; Heupel, Michelle & Colin Simpfendorfer (2020). **Estimating marine protected area network benefits for reef sharks**. *Journal of Applied Ecology*. eISSN: 1365-2664. [https://doi.org/10.1111/1365-2664.13706](https://doi.org/10.1111/1365-2664.13706). Impacto JCR: 5.7
 
-- Murray, Kris; **Mart\'in, Gerardo** & Takuya Iwamura (2019). **Focus on snake ecology to fight snakebite**. *The Lancet*. (19) 325. ISSN: 01406736. [https://doi.org/10.1016/S0140-6736(19)32510-3](https://doi.org/10.1016/S0140-6736(19)32510-3). Impacto JCR: 59.1
+- Murray, Kris; **Martín, Gerardo** & Takuya Iwamura (2019). **Focus on snake ecology to fight snakebite**. *The Lancet*. (19) 325. ISSN: 01406736. [https://doi.org/10.1016/S0140-6736(19)32510-3](https://doi.org/10.1016/S0140-6736(19)32510-3). Impacto JCR: 59.1
 
-- **Mart\'in, Gerardo**; Becker, Daniel; Washburn, Alex & Raina K. Plowright (2018) **Environmental persistence of influenza H5N1 is driven by temperature and salinity: insights from a Bayesian meta-analysis**. *Frontiers in Ecology and Evolution*. eISSN: 2296701X. [https://doi.org/10.3389/fevo.2018.00131](https://doi.org/10.3389/fevo.2018.00131). Impacto JCR: 2.7.
+- **Martín, Gerardo**; Becker, Daniel; Washburn, Alex & Raina K. Plowright (2018) **Environmental persistence of influenza H5N1 is driven by temperature and salinity: insights from a Bayesian meta-analysis**. *Frontiers in Ecology and Evolution*. eISSN: 2296701X. [https://doi.org/10.3389/fevo.2018.00131](https://doi.org/10.3389/fevo.2018.00131). Impacto JCR: 2.7.
 
 - Brannelly, Laura A.; *Martíin, Gerardo*; Lewellyn, John; Skerratt, Lee & Lee Berger (2018). *Size dependant susceptibility to chytridiomycosis in the invasive **Rhinella marina** *. *Diseases of Aquatic Organisms*. 131:107-120. ISSN: 01775103. eISSN: 16161580. [https://doi.org/10.3354/dao03278](https://doi.org/10.3354/dao03278). Impacto JCR: 1.7.
 
 - **Martín, Gerardo**; Yáñez-Arenas, Carlos; Plowright, Raina K.; Carla Chen & Skerratt, Lee (2018). **Hendra virus spillover is a bimodal system driven by climatic factors**. \emph{EcoHealth}. 15: 526–542. ISSN: 16129202. eISSN: 16129210. \url{https://doi.org/10.1007/s10393-017-1309-y}. Impacto JCR: 2.2
 
-- **Mart\'in, Gerardo**; Yáñez-Arenas, Carlos; Plowright, Raina K.; Carla Chen \& Skerratt, Lee (2018). **Climate change could increase the extent of areas at risk of Hendra virus spillover**. *EcoHealth*. 15: 509–525. ISSN: 16129202. eISSN: 16129210. [https://doi.org/10.1007/s10393-018-1322-9](https://doi.org/10.1007/s10393-018-1322-9). Impacto JCR: 2.2.
+- **Martín, Gerardo**; Yáñez-Arenas, Carlos; Plowright, Raina K.; Carla Chen \& Skerratt, Lee (2018). **Climate change could increase the extent of areas at risk of Hendra virus spillover**. *EcoHealth*. 15: 509–525. ISSN: 16129202. eISSN: 16129210. [https://doi.org/10.1007/s10393-018-1322-9](https://doi.org/10.1007/s10393-018-1322-9). Impacto JCR: 2.2.
 
-- Yáñez Arenas, Carlos Alberto; Rioja-Nieto, Rodolfo; Dzul-Manzanilla, Felipe; **Mart\'in, Gerardo**; Chiappa-Carrara, Xavier; Buenfil-Ávila, Aura; Manrique-Saide, Pablo, Correa-Morales, Fabián; Díaz-Quiñonez, José Alberto; Pérez-Rentería, Crescencio; Ordoñez-Álvarez, José \& Herón Huerta (2017). **Characterization of environmental suitability for the Asian tiger mosquito (\emph{Aedes albopictus}) in México**. *Journal of Medical Entomology*. ISSN: 19382928. eISSN: 00222585. 55(1):69–77. [https://doi.org/10.1093/jme/tjx185](https://doi.org/10.1093/jme/tjx185). Impacto JCR: 1.7.
+- Yáñez Arenas, Carlos Alberto; Rioja-Nieto, Rodolfo; Dzul-Manzanilla, Felipe; **Martín, Gerardo**; Chiappa-Carrara, Xavier; Buenfil-Ávila, Aura; Manrique-Saide, Pablo, Correa-Morales, Fabián; Díaz-Quiñonez, José Alberto; Pérez-Rentería, Crescencio; Ordoñez-Álvarez, José \& Herón Huerta (2017). **Characterization of environmental suitability for the Asian tiger mosquito (\emph{Aedes albopictus}) in México**. *Journal of Medical Entomology*. ISSN: 19382928. eISSN: 00222585. 55(1):69–77. [https://doi.org/10.1093/jme/tjx185](https://doi.org/10.1093/jme/tjx185). Impacto JCR: 1.7.
 
 - **Martín, Gerardo**; Webb, Rebecca J.;Plowright, Raina K.; Chen, Carla  & Lee F. Skerratt (2017). **Microclimates might limit indirect spillover of the bat borne zoonotic Hendra virus**. *Microbial ecology*. 74: 106–115. ISSN: 1432184X. [https://doi.org/10.1007/s00248-017-0934-x](https://doi.org/10.1007/s00248-017-0934-x). Impacto JCR: 3.6.
 
@@ -38,12 +38,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - **Martín, Gerardo**; Plowright, Raina K.; Chen, Carla; Kault, David; Selleck, Paul \& Lee F. Skerratt (2015). **Hendra virus survival does not explain the pattern of transmission and implicates relatively direct transmission routes**. *Journal of General Virology*. 96(6). ISSN: 00221317. eISSN: 14652099. [https://doi.org/10.1099/vir.0.000073](https://doi.org/10.1099/vir.0.000073). Impacto JCR: 2.8.
 
-- Plowright, Raina; Eby, Peggy; Hudson, Peter; Smith, Ina; Westcott, David; Bryden, Wayne; Middleton, Deborah; Reid, Peter; McFarlane, Rosemary; **Mart\'in, Gerardo**; Tabor, Gary; Skerratt, Lee; Anderson, Dale; Crameri, Gary; Quammen, David; Jordan, David; Freeman, Paul; Wang, Lin-Fa; Epstein, Jonathan; Marsh, Glenn; Kung, Nina & Hamish McCallum (2015). **Ecological Dynamics of Emerging Bat Virus Spillover}. \emph{Proceedings of the Royal Society B}.  282(1798). ISSN: 09628452. [https://doi.org/10.1098/rspb.2014.2124](https://doi.org/10.1098/rspb.2014.2124). Impacto JCR: 4.3.
+- Plowright, Raina; Eby, Peggy; Hudson, Peter; Smith, Ina; Westcott, David; Bryden, Wayne; Middleton, Deborah; Reid, Peter; McFarlane, Rosemary; **Martín, Gerardo**; Tabor, Gary; Skerratt, Lee; Anderson, Dale; Crameri, Gary; Quammen, David; Jordan, David; Freeman, Paul; Wang, Lin-Fa; Epstein, Jonathan; Marsh, Glenn; Kung, Nina & Hamish McCallum (2015). **Ecological Dynamics of Emerging Bat Virus Spillover}. \emph{Proceedings of the Royal Society B}.  282(1798). ISSN: 09628452. [https://doi.org/10.1098/rspb.2014.2124](https://doi.org/10.1098/rspb.2014.2124). Impacto JCR: 4.3.
 
 - Valdez-Lares, Rosaura; **Martín-Muñoz de Cote, Gerardo A.**; Muñiz-Martínez, Raúl & Georgina Santos-Barrera (2013). **New distributional records for amphibians from Durango, México**. *Herpetological Review*. 44 (4): 646-649. ISSN: 0018084X. [https://bit.ly/2zIsM3R](https://bit.ly/2zIsM3R). Impacto JCR: 0.6.
 
 # Reportes oficiales
 
-
+- Skerratt, Lee F., **Martín, Gerardo** (2017). **Models that predict risk of Hendra virus transmission from flying foxes to horses**. *Agrifutures Thoroughbred Horses*.
 
 # Divulgación
+
+- Luly, Jon; **Martín, Gerardo**; Skerratt, Lee (2013). **Breaking up bat colonies doesn’t eliminate health risks**. *The Conversation*. [http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580](http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580).
