@@ -38,7 +38,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - **Martín, Gerardo**; Plowright, Raina K.; Chen, Carla; Kault, David; Selleck, Paul \& Lee F. Skerratt (2015). **Hendra virus survival does not explain the pattern of transmission and implicates relatively direct transmission routes**. *Journal of General Virology*. 96(6). ISSN: 00221317. eISSN: 14652099. [https://doi.org/10.1099/vir.0.000073](https://doi.org/10.1099/vir.0.000073). Impacto JCR: 2.8.
 
-- Plowright, Raina; Eby, Peggy; Hudson, Peter; Smith, Ina; Westcott, David; Bryden, Wayne; Middleton, Deborah; Reid, Peter; McFarlane, Rosemary; **Martín, Gerardo**; Tabor, Gary; Skerratt, Lee; Anderson, Dale; Crameri, Gary; Quammen, David; Jordan, David; Freeman, Paul; Wang, Lin-Fa; Epstein, Jonathan; Marsh, Glenn; Kung, Nina & Hamish McCallum (2015). **Ecological Dynamics of Emerging Bat Virus Spillover}. \emph{Proceedings of the Royal Society B}.  282(1798). ISSN: 09628452. [https://doi.org/10.1098/rspb.2014.2124](https://doi.org/10.1098/rspb.2014.2124). Impacto JCR: 4.3.
+- Plowright, Raina; Eby, Peggy; Hudson, Peter; Smith, Ina; Westcott, David; Bryden, Wayne; Middleton, Deborah; Reid, Peter; McFarlane, Rosemary; **Martín, Gerardo**; Tabor, Gary; Skerratt, Lee; Anderson, Dale; Crameri, Gary; Quammen, David; Jordan, David; Freeman, Paul; Wang, Lin-Fa; Epstein, Jonathan; Marsh, Glenn; Kung, Nina & Hamish McCallum (2015). **Ecological Dynamics of Emerging Bat Virus Spillover**. *\emph{*Proceedings of the Royal Society B*.  282(1798). ISSN: 09628452. [https://doi.org/10.1098/rspb.2014.2124](https://doi.org/10.1098/rspb.2014.2124). Impacto JCR: 4.3.
 
 - Valdez-Lares, Rosaura; **Martín-Muñoz de Cote, Gerardo A.**; Muñiz-Martínez, Raúl & Georgina Santos-Barrera (2013). **New distributional records for amphibians from Durango, México**. *Herpetological Review*. 44 (4): 646-649. ISSN: 0018084X. [https://bit.ly/2zIsM3R](https://bit.ly/2zIsM3R). Impacto JCR: 0.6.
 
@@ -48,4 +48,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Divulgación
 
-- Luly, Jon; **Martín, Gerardo**; Skerratt, Lee (2013). **Breaking up bat colonies doesn’t eliminate health risks**. *The Conversation*. [http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580](http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580).
+- **Martín, Gerardo** and Kris Murray (2021). **Anticipating the impact of global change on snakebite envenoming**. [*London Centre for Tropical Disease Research*](pubs/Martin - Anticipating impacts.pdf).
+
+- Simpfendofer, Colin; **Martín, Gerardo**; Espinoza, Mario and Michelle Heupel (2020). **Protected high-value reefs and movement pathways improve conservation of reef sharks**. [*The Applied Ecologist*](https://appliedecologistsblog.com/2020/07/30/protected-high-value-reefs-and-movement-pathways-improve-conservation-of-reef-sharks/)
+
+- Luly, Jon; **Martín, Gerardo**; Skerratt, Lee (2013). **Breaking up bat colonies doesn’t eliminate health risks**. [*The Conversation*](http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580).
