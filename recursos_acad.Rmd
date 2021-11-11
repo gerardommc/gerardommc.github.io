@@ -18,6 +18,8 @@ La escritura es la parte más complicada de una investigación. He aquí una ser
 
 3. [Ten simple rules for writing a literature review](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003149)
 
+4. [How to write a theoretical ecology paper that people will cite](http://www.eeb.cornell.edu/Ellner/CitedPapers.pdf)
+
 # Software
 
 ## Ofimática

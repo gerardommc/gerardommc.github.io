@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.6.30)  5 NOV 2021 11:18
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.6.30)  5 NOV 2021 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,7 +1116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-Package marginnote Info: Margin note 6.5 is on absolute page 6 on input line 23
+Package marginnote Info: Margin note 6.5 is on absolute page 7 on input line 23
 4.
 Package marginnote Info: right page because not two side mode on input line 234
 .
@@ -1374,17 +1374,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 337--379
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `cv-espanol.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16144 strings out of 477220
- 289272 string characters out of 5832722
- 664142 words of memory out of 5000000
- 35641 multiletter control sequences out of 15000+600000
+ 16143 strings out of 477220
+ 289261 string characters out of 5832722
+ 664126 words of memory out of 5000000
+ 35640 multiletter control sequences out of 15000+600000
  408861 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  81i,9n,110p,809b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
