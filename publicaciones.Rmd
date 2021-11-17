@@ -1,6 +1,6 @@
 ---
 title: "Publicaciones"
-image: "imagenes/papers.svg"
+image: "imagenes/Pubs.png"
 output: postcards::trestles
 ---
 
