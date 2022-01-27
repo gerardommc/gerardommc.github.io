@@ -36,6 +36,7 @@
   BoldItalicFont=LinLibertine_RBI.otf
 ]{LinLibertine_R.otf}
 \setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+\setsansfont{Latin Modern Sans}
 
 % ---- CUSTOM COMMANDS
 \chardef\&="E050
@@ -52,7 +53,7 @@
 
 % HEADINGS
 \usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
+\usepackage[normalem]{ulem}
 \sectionfont{\mdseries\upshape\Large}
 \subsectionfont{\mdseries\scshape\normalsize} 
 \subsubsectionfont{\mdseries\upshape\large} 
@@ -68,9 +69,31 @@ bookmarks, colorlinks, breaklinks,
 ]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
 
+%ORCID
+\usepackage{tikz,xcolor,hyperref}
+
+% Make Orcid icon
+\definecolor{lime}{HTML}{A6CE39}
+\DeclareRobustCommand{\orcidicon}{%
+	\begin{tikzpicture}
+	\draw[lime, fill=lime] (0,0) 
+	circle [radius=0.18] 
+	node[white] {{\fontfamily{lmss}\selectfont \tiny ID}};
+	\draw[white, fill=white] (-0.0825,0.099) 
+	circle [radius=0.007];
+	\end{tikzpicture}
+	\hspace{-2mm}
+}
+
+\foreach \x in {A, ..., Z}{%
+	\expandafter\xdef\csname orcid\x\endcsname{\noexpand\href{https://orcid.org/\csname orcidauthor\x\endcsname}{\noexpand\orcidicon}}
+}
+
+\newcommand{\orcidauthorA}{0000-0003-3608-5328}
+
 % DOCUMENT
 \begin{document}
-{\LARGE Gerardo Antonio Mart\'in Mu\~noz de Cote}\\ [0.5cm]
+{\LARGE Gerardo Antonio Mart\'in Mu\~noz de Cote \orcidA{}}\\ [0.5cm]
 {\small PhD., MSc. Biol. Cons., MVZ.}\\[0.5cm]
 {\large Curriculumvit\ae}\\
 {\small \today}\\[0.5cm]
@@ -111,7 +134,7 @@ Modelado espacial de procesos ecol\'ogicos y transmisi\'on de enfermedades $ \bu
 
 \section*{Experiencia profesional}
 
-\years{2021} Profesor asociado C de tiempo completo. Escuela Nacional de Estudios Superiores unidad Mérida.
+\years{2021-} Profesor asociado C de tiempo completo. Escuela Nacional de Estudios Superiores unidad Mérida.
 
 \years{2020-2021} Investigador posdoctoral DGAPA\footnote{\url{https://dgapa.unam.mx/}}, Escuela Nacional de Estudios Superiores unidad M\'erida, Universidad Nacional Aut\'onoma de M\'exico. Proyecto: 
 
@@ -119,7 +142,7 @@ Modelado espacial de procesos ecol\'ogicos y transmisi\'on de enfermedades $ \bu
 \item Nichos ecol\'ogicos fundamentales: supuestos estad\'isticos y alternativas geo-estad\'isticas para estimarlos
 \end{itemize}
 
-\years{2020-} Profesor de asignaturas en la Facultad de Medicina Veterinaria y Zootecnia, Universidad Juárea del Estado de Durango:
+\years{2020} Profesor de asignaturas en la Facultad de Medicina Veterinaria y Zootecnia, Universidad Juárea del Estado de Durango:
 \begin{itemize}
  \item Estad\'istica 1
  \item Patolog\'ia general
@@ -140,6 +163,10 @@ Modelado espacial de procesos ecol\'ogicos y transmisi\'on de enfermedades $ \bu
 \years{2006} 600 h de servicio social profesional. Laboratorio de patolog\'ia animal, Uni\'on Ganadera Regional, Le\'on, Guanajuato, Mex. Responsable: M.V.Z. Manuel Conrado Gonz\'alez, Jefe del Laboratorio de Patolog\'ia. \\
 
 \subsection*{Experiencia docente}
+
+%\years{2022} Estancia de Investigación. Licenciatura en Manejo Sustentable de la Zona Costera. ENES M\'erida, UNAM.\\
+
+%\years{2022} Modelado y Análisis Espacial. Licenciatura en Ciencias Ambientales. ENES M\'erida, UNAM.\\
 
 \years{2021} Modelos Matem\'aticos en Ecolog\'ia. Licenciatura en Ecología. ENES M\'erida, UNAM.\\
 
@@ -168,7 +195,7 @@ Modelado espacial de procesos ecol\'ogicos y transmisi\'on de enfermedades $ \bu
 
 \subsection*{Art\'iculos en revistas arbitradas}
 
-\years{2021} \textbf{Gerardo Mar\'in}, Joseph Erinjery, Rikki Gumbs, Ruchira Somaweera, Dileepa Ediriweera, Peter J. Diggle, Anuradhani Kasturiratne, Janaka de Silva, David G. Lalloo, Takuya Iwamura \& Kris A. Murray. Integrating snake distribution, abundance and expert-derived behavioural traits predicts snakebite risk. \emph{Journal of Applied Ecology, En-prensa}.\\
+\years{2021} \textbf{Gerardo Mar\'in}, Joseph Erinjery, Rikki Gumbs, Ruchira Somaweera, Dileepa Ediriweera, Peter J. Diggle, Anuradhani Kasturiratne, Janaka de Silva, David G. Lalloo, Takuya Iwamura \& Kris A. Murray. Integrating snake distribution, abundance and expert-derived behavioural traits predicts snakebite risk. \emph{Journal of Applied Ecology}. \url{https://doi.org/10.1111/1365-2664.14081}.\\
 
 \years{2021} \textbf{Gerardo Mar\'in}, Joseph Erinjery, Dileepa Ediriweera, David G. Lalloo, Takuya Iwamura \& Kris A. Murray. Redefining snakebite as a zoonosis: disease incidence is driven by snake ecology, socioeconomics and anthropogenic impacts. \emph{MedRXiv}. \url{https://doi.org/10.1101/2021.10.01.21264438}.\\
 
@@ -184,54 +211,58 @@ Modelado espacial de procesos ecol\'ogicos y transmisi\'on de enfermedades $ \bu
 
 \years{2018} \textbf{Mart\'in, Gerardo}; Becker, Daniel; Washburn, Alex \& Raina K. Plowright (2018) \textbf{Environmental persistence of influenza H5N1 is driven by temperature and salinity: insights from a Bayesian meta-analysis}. \emph{Frontiers in Ecology and Evolution}. eISSN: 2296701X. \url{https://doi.org/10.3389/fevo.2018.00131}\\
 
-\years{2018} Brannelly, Laura A.; \textbf{Mart\'in, Gerardo}; Lewellyn, John; Skerratt, Lee \& Lee Berger (2018). \textbf{Size dependant susceptibility to chytridiomycosis in the invasive \emph{Rhinella marina}}. \emph{Diseases of Aquatic Organisms}. 131:107-120. ISSN: 01775103. eISSN: 16161580. \url{ https://doi.org/10.3354/dao03278}.\\
+\years{2018} Brannelly, Laura A.; \textbf{Gerardo Mart\'in}; Lewellyn, John; Skerratt, Lee \& Lee Berger (2018). \textbf{Size dependant susceptibility to chytridiomycosis in the invasive \emph{Rhinella marina}}. \emph{Diseases of Aquatic Organisms}. 131:107-120. ISSN: 01775103. eISSN: 16161580. \url{ https://doi.org/10.3354/dao03278}.\\
 
-\years{2018} \textbf{Mart\'in, Gerardo}; Y\'a\~nez-Arenas, Carlos; Plowright, Raina K.; Carla Chen \& Skerratt, Lee (2018). \textbf{Hendra virus spillover is a bimodal system driven by climatic factors}. \emph{EcoHealth}. 15: 526–542. ISSN: 16129202. eISSN: 16129210. \url{https://doi.org/10.1007/s10393-017-1309-y}.\\
+\years{2018} \textbf{Gerardo Mart\'in}; Y\'a\~nez-Arenas, Carlos; Plowright, Raina K.; Carla Chen \& Skerratt, Lee (2018). \textbf{Hendra virus spillover is a bimodal system driven by climatic factors}. \emph{EcoHealth}. 15: 526–542. ISSN: 16129202. eISSN: 16129210. \url{https://doi.org/10.1007/s10393-017-1309-y}.\\
 
-\years{2018} \textbf{Mart\'in, Gerardo}; Y\'a\~nez-Arenas, Carlos; Plowright, Raina K.; Carla Chen \& Skerratt, Lee (2018). \textbf{Climate change could increase the extent of areas at risk of Hendra virus spillover}. \emph{EcoHealth}. 15: 509–525. ISSN: 16129202. eISSN: 16129210. \url{https://doi.org/10.1007/s10393-018-1322-9}.\\
+\years{2018} \textbf{Gerardo Mart\'in}; Y\'a\~nez-Arenas, Carlos; Plowright, Raina K.; Carla Chen \& Skerratt, Lee (2018). \textbf{Climate change could increase the extent of areas at risk of Hendra virus spillover}. \emph{EcoHealth}. 15: 509–525. ISSN: 16129202. eISSN: 16129210. \url{https://doi.org/10.1007/s10393-018-1322-9}.\\
 
-\years{2017} Y\'a\~nez Arenas, Carlos Alberto; Rioja-Nieto, Rodolfo; Dzul-Manzanilla, Felipe; \textbf{Mart\'in, Gerardo}; Chiappa-Carrara, Xavier; Buenfil-\'Avila, Aura; Manrique-Saide, Pablo, Correa-Morales, Fabi\'an; D\'iaz-Qui\~n\'onez, Jos\'e Alberto; P\'erez-Renter\'ia, Crescencio; Ordo\~nez-\'Alvarez, Jos\'e \& Her\'on Huerta (2017). \textbf{Characterization of environmental suitability for the Asian tiger mosquito (\emph{Aedes albopictus}) in M\'exico}. \emph{Journal of Medical Entomology}. ISSN: 19382928. eISSN: 00222585. 55(1):69–77. \url{https://doi.org/10.1093/jme/tjx185}\\
+\years{2017} Y\'a\~nez Arenas, Carlos Alberto; Rioja-Nieto, Rodolfo; Dzul-Manzanilla, Felipe; \textbf{Gerardo Mart\'in}; Chiappa-Carrara, Xavier; Buenfil-\'Avila, Aura; Manrique-Saide, Pablo, Correa-Morales, Fabi\'an; D\'iaz-Qui\~n\'onez, Jos\'e Alberto; P\'erez-Renter\'ia, Crescencio; Ordo\~nez-\'Alvarez, Jos\'e \& Her\'on Huerta (2017). \textbf{Characterization of environmental suitability for the Asian tiger mosquito (\emph{Aedes albopictus}) in M\'exico}. \emph{Journal of Medical Entomology}. ISSN: 19382928. eISSN: 00222585. 55(1):69–77. \url{https://doi.org/10.1093/jme/tjx185}\\
 
-\years{2017} \textbf{Mart\'in, Gerardo}; Webb, Rebecca J.;Plowright, Raina K.; Chen, Carla  \& Lee F. Skerratt (2017). \textbf{Microclimates might limit indirect spillover of the bat borne zoonotic Hendra virus}. \emph{Microbial ecology}. 74: 106–115. ISSN: 1432184X. \url{https://doi.org/10.1007/s00248-017-0934-x}.\\
+\years{2017} \textbf{Gerardo Mart\'in}; Webb, Rebecca J.;Plowright, Raina K.; Chen, Carla  \& Lee F. Skerratt (2017). \textbf{Microclimates might limit indirect spillover of the bat borne zoonotic Hendra virus}. \emph{Microbial ecology}. 74: 106–115. ISSN: 1432184X. \url{https://doi.org/10.1007/s00248-017-0934-x}.\\
 
-\years{2016} \textbf{Mart\'in, Gerardo}; Skerratt, Lee; Y\'a\~nez-Arenas, Carlos; Plowright, Raina K. \& Carla Chen (2016).) \textbf{Climatic suitability influences species specific abundance patterns of Australian flying foxes and risk of Hendra virus spillover}. \emph{One Health Journal}. 2: 115-121. ISSN: 23527714. \url{https://doi.org/10.1016/j.onehlt.2016.07.004}.\\
+\years{2016} \textbf{Gerardo Mart\'in}; Skerratt, Lee; Y\'a\~nez-Arenas, Carlos; Plowright, Raina K. \& Carla Chen (2016).) \textbf{Climatic suitability influences species specific abundance patterns of Australian flying foxes and risk of Hendra virus spillover}. \emph{One Health Journal}. 2: 115-121. ISSN: 23527714. \url{https://doi.org/10.1016/j.onehlt.2016.07.004}.\\
 
 \years{2016} Alison J. Peel, Hume E. Field, Peter A. Reid, Raina K. Plowright, Christopher C. Broder, Lee F. Skerratt, David T. S. Hayman, Olivier Restif, Melanie Taylor, \textbf{Gerardo Mart\'in}, Gary Crameri, Ina Smith, Michelle Baker, Glenn A. Marsh, Jennifer Barr, Andrew C. Breed, James L. N. Wood, Navneet Dhand, Jenny-Ann Toribio, Andrew A. Cunningham, Ian Fulton, Wayne L. Bryden, Cristy Secombe, Lin-Fa Wang (2016). \textbf{The equine Hendra virus vaccine remains a highly effective preventative measure against infection in horses and humans: \lq The imperative to develop a human vaccine for the Hendra virus in Australia\rq\.} \emph{Infection Ecology and Epidemiology}. 6(1):31658. ISSN: 20008686. \url{https://doi.org/10.3402/iee.v6.31658}.\\
 
-\years{2015} \textbf{Mart\'in, Gerardo}; Plowright, Raina K.; Chen, Carla; Kault, David; Selleck, Paul \& Lee F. Skerratt (2015). \textbf{Hendra virus survival does not explain the pattern of transmission and implicates relatively direct transmission routes}. \emph{Journal of General Virology}. 96(6). ISSN: 00221317. eISSN: 14652099. \url{https://doi.org/10.1099/vir.0.000073}.\\
+\years{2015} \textbf{Gerardo Mart\'in}; Plowright, Raina K.; Chen, Carla; Kault, David; Selleck, Paul \& Lee F. Skerratt (2015). \textbf{Hendra virus survival does not explain the pattern of transmission and implicates relatively direct transmission routes}. \emph{Journal of General Virology}. 96(6). ISSN: 00221317. eISSN: 14652099. \url{https://doi.org/10.1099/vir.0.000073}.\\
 
-\years{2015} Plowright, Raina; Eby, Peggy; Hudson, Peter; Smith, Ina; Westcott, David; Bryden, Wayne; Middleton, Deborah; Reid, Peter; McFarlane, Rosemary; \textbf{Mart\'in, Gerardo}; Tabor, Gary; Skerratt, Lee; Anderson, Dale; Crameri, Gary; Quammen, David; Jordan, David; Freeman, Paul; Wang, Lin-Fa; Epstein, Jonathan; Marsh, Glenn; Kung, Nina \& Hamish McCallum (2015). \textbf{Ecological Dynamics of Emerging Bat Virus Spillover}. \emph{Proceedings of the Royal Society B}.  282(1798). ISSN: 09628452. \url{https://doi.org/10.1098/rspb.2014.2124}.\\
+\years{2015} Plowright, Raina; Eby, Peggy; Hudson, Peter; Smith, Ina; Westcott, David; Bryden, Wayne; Middleton, Deborah; Reid, Peter; McFarlane, Rosemary; \textbf{Gerardo Mart\'in}; Tabor, Gary; Skerratt, Lee; Anderson, Dale; Crameri, Gary; Quammen, David; Jordan, David; Freeman, Paul; Wang, Lin-Fa; Epstein, Jonathan; Marsh, Glenn; Kung, Nina \& Hamish McCallum (2015). \textbf{Ecological Dynamics of Emerging Bat Virus Spillover}. \emph{Proceedings of the Royal Society B}.  282(1798). ISSN: 09628452. \url{https://doi.org/10.1098/rspb.2014.2124}.\\
 
 \years{2013} Valdez-Lares, Rosaura; \textbf{Mart\'in-Mu\~noz de Cote, Gerardo A.}; Mu\~niz-Mart\'inez, Ra\'ul \& Georgina Santos-Barrera (2013). \textbf{New distributional records for amphibians from Durango, M\'exico}. \emph{Herpetological Review}. 44 (4): 646-649. ISSN: 0018084X. \url{https://bit.ly/2zIsM3R}.\\
 
 \subsubsection*{Art\'iculos en revisión}
 
-\years{2021} \textbf{Gerardo Mart\'in}, Joseph Erinjery, Taluya Iwamura \& Kris A. Murray. \textbf{Redefining snakebite envenoming as a zoonosis: disease incidence is driven by snake ecology, socioeconomics and anthropogenic impacts}. \emph{PLoS Neglected Tropical Diseases}.
+\years{2022} Joseph Erinjery, Eyal Golstein, \textbf{Gerardo Mart\'in}, et al. \textbf{Land use change in Sri Lanka during the armed conflict}. \emph{Journal of Land Use Policy}. \\
 
-\years{2021} \textbf{Mart\'in, Gerardo}; Carlos Y\'a\~nez-Arenas \& Xavier Chiappa-Carrara. \textbf{Discrepancies between PPMs and MVEs identify the niche centroid - geography configuration}. \emph{Ecological Modelling}.
+\years{2022} Eyal Golstein, Joseph Erinjery, \textbf{Gerardo Mart\'in}, et al. \textbf{Farmers adaptation to climate uncertainty as drivers of snakebite risk}. \emph{Nature communications}.\\
+
+\years{2021} \textbf{Gerardo Mart\'in}, Joseph Erinjery, Taluya Iwamura \& Kris A. Murray. \textbf{Redefining snakebite envenoming as a zoonosis: disease incidence is driven by snake ecology, socioeconomics and anthropogenic impacts}. \emph{PLoS Neglected Tropical Diseases}.\\
+
+\years{2021} \textbf{Gerardo Mart\'in}; Carlos Y\'a\~nez-Arenas \& Xavier Chiappa-Carrara. \textbf{Discrepancies between PPMs and MVEs identify the niche centroid - geography configuration}. \emph{Ecological Modelling}.
 
 \subsubsection*{Art\'iculos en preparaci\'on}
 
-\years{2019} \textbf{Mart\'in, Gerardo}; Webb, Rebecca J.; Plowright, Raina K.; Chen, Carla \& Lee F. Skerratt. \textbf{Tree cover in paddocks is the main determinant of exposure to Hendra virus in horses}.\\
+\years{2019} \textbf{Gerardo Mart\'in}, Rebecca J. Webb, Raina K. Plowright, Carla Chen \& Lee F. Skerratt. \textbf{Tree cover in paddocks is the main determinant of exposure to Hendra virus in horses}.\\
 
 \subsubsection*{Proyectos en curso}
 
 \begin{itemize}
 
-	\item  Erinjery, Joseph; \textbf{Mart\'in, Gerardo}; Goldstein, Eyal; Kris Murray \& Takuya Iwamura. \textbf{Global change predictions based on socioeconomic pathways for Sri Lanka}.\\
+	\item  Joseph J. Erinjery, \textbf{Gerardo Mart\'in}, Eyal Goldstein, Kris Murray \& Takuya Iwamura. \textbf{Global change predictions based on socioeconomic pathways for Sri Lanka}.\\
 	
-	\item \textbf{Mart\'in, Gerardo}; Erinjery, Joseph; Goldstein, Eyal; Iwamura, Takuya \& Kris Murray. \textbf{Snakebite burden and shared socioeconomic pathways scenarios for a South Asian hotspot}.\\
+	\item \textbf{Gerardo Mart\'in}; Erinjery, Joseph; Goldstein, Eyal; Iwamura, Takuya \& Kris Murray. \textbf{Snakebite burden and shared socioeconomic pathways scenarios for a South Asian hotspot}.\\
 	
-	\item Kosch, Tiffany \& \textbf{Gerardo Mart\'in}. \textbf{Modelling the prevalence of amphibian chytridiomycosis in Peru}.\\
+	\item Tiffany Kosch, \& \textbf{Gerardo Mart\'in}. \textbf{Modelling the prevalence of amphibian chytridiomycosis in Peru}.\\
 	
-	\item \textbf{Mart\'in, Gerardo}; Giles, John R.; Westcott, David; Parry, Hazel; Plowright, Raina; Chen, Carla \& Lee F. Skerratt. \textbf{Landscape level mechanisms driving risk of Hendra virus spillover}.\\
+	\item \textbf{Gerardo Mart\'in}, John R. Giles, David Westcott, Hazel Parry, Raina Plowright, Raina, Carla Chen \& Lee F. Skerratt. \textbf{Landscape level mechanisms driving risk of Hendra virus spillover}.\\
 \end{itemize}
 
 
 
 \subsection*{Art\'iculos de divulgaci\'on}
 \noindent
-\years{2013}Luly, Jon; Mart\'in, Gerardo; Skerratt, Lee. 30 April 2013. \textbf{Breaking up bat colonies doesn't eliminate health risks}. \emph{The Conversation}\footnote{\url{http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580}}
+\years{2013} Jon Luly, Gerardo Mart\'in; Lee Skerratt. 30 April 2013. \textbf{Breaking up bat colonies doesn't eliminate health risks}. \emph{The Conversation}\footnote{\url{http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580}}
 
 
 \subsection*{Pl\'aticas y p\'osters}
@@ -280,6 +311,23 @@ Modelado espacial de procesos ecol\'ogicos y transmisi\'on de enfermedades $ \bu
 \years{2008} T\'ecnicas para el estudio de la fauna silvestre. INECOL A.C. Reserva de la bi\'osfera de Mapim\'i. Dra. Sonia Gallina Tessaro.\\
 
 \years{2006} De Darwin a la gen\'etica evolutiva. Universidad de Guanajuato, Museo Alfredo Dug\'es. Guanajuato, Gto., MX.
+
+\section*{Revisi\'on para revistas acad\'emicas}
+
+\begin{itemize}
+ \item Scientific Data
+ \item PLoS Neglected Tropical Diseases
+ \item Acta Zool\'ogica Mexicana
+ \item Abanico Veterinario
+ \item Ecological Applications
+ \item EcoHealth
+ \item Journal of Zoonoses and Public Health
+ \item Australian Journal of Zoology
+ \item PLoS One
+ \item Global Ecology and Conservation
+ \item Infection and Drug Resistance
+ \item Frontiers in Public Health
+\end{itemize}
 
 \section*{Habilidades generales}
 \begin{itemize}
@@ -341,13 +389,6 @@ Douglas, 4810 QLD, Australia\\
 Te\'efono: +61 7 4781 6065\\
 Email: \href{mailto:lee.skerratt@jcu.edu.au}{lee.skerratt@jcu.edu.au}\\
 \\
-Dr. Alberto Gonz\'alez Romero\\
-Departamento de Biolog\'ia y Conservaci\'on de Vertebrados \\
-Instituto de Ecolog\'ia A. C.\\
-Xalapa, Veracruz, M\'exico.\\
-Te\'efono: +52 228 842 1800 (ext) 4100\\
-Email: \href{mailto:alberto.gonzalez@inecol.edu.mx}{alberto.gonzalez@inecol.edu.mx}\\
-\\
 Dr. Gerardo Suz\'an Azpiri\\
 Facultad de Medicina Veterinaria y Zootecnia\\
 Departamento de Etolog\'ia, Animales silvestres y de Laboratorio\\
@@ -355,13 +396,6 @@ Universidad Nacional Aut\'onoma de M\'exico\\
 Distrito Federal, M\'exico\\
 Te\'efono: +52 555 622 5941 (ext) 5\\
 Email: \href{mailto:gerardosuz@gmail.com}{gerardosuz@gmail.com}\\
-\\
-Dr. Miguel Rubio Godoy\\
-Departamento de Biolog\'ia Evolutiva\\
-Instituto de Ecolog\'ia A. C.\\
-Xalapa, Veracruz, M\'exico.\\
-Te\'efono: +52 228 842 1800 (ext) 6208\\
-Email: \href{mailto:miguel.rubio@inecol.edu.mx}{miguel.rubio@inecol.edu.mx}\\
 \\
 Dr. Carlos Yáñez Arenas\\
 Parque Científico y Tecnológico de Yucat\'an\\
