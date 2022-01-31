@@ -18,4 +18,4 @@ output: postcards::trestles
 # Licenciatura en Ciencias Ambientales
 - [Modelación matemática (Ciencias Ambientales, 2022-1)](https://gerardommc.github.io/Modelacion-matematica-CA/)
 
-- [Modelado y análisis espacial](https://gerardommc.github.com/Analisis-Modelado-Espacial/)
+- [Análisis y Modelado Rspacial](https://gerardommc.github.com/Analisis-Modelado-Espacial/)
