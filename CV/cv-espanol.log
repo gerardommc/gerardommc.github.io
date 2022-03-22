@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.12.15)  14 FEB 2022 17:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2021.12.15)  22 FEB 2022 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,7 +994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-Package marginnote Info: Margin note 1.3 is on absolute page 2 on input line 13
+Package marginnote Info: Margin note 1.3 is on absolute page 1 on input line 13
 8.
 Package marginnote Info: right page because not two side mode on input line 138
 .
@@ -1245,7 +1245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-Package marginnote Info: Margin note 3.11 is on absolute page 4 on input line 2
+Package marginnote Info: Margin note 3.11 is on absolute page 3 on input line 2
 05.
 Package marginnote Info: right page because not two side mode on input line 205
 .
@@ -1344,9 +1344,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
+Package marginnote Info: Margin note 4.9 is on absolute page 4 on input line 22
+3.
 Package marginnote Info: right page because not two side mode on input line 223
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 223.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 223.
 
 Overfull \hbox (58.01317pt too wide) in paragraph at lines 223--224
 \TU/LinLibertine_R.otf(0)/m/it/10.95 Health\TU/LinLibertine_R.otf(0)/m/n/10.95 
@@ -1360,9 +1362,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
+Package marginnote Info: Margin note 4.10 is on absolute page 5 on input line 2
+25.
 Package marginnote Info: right page because not two side mode on input line 225
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 225.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 225.
 [4]
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
@@ -1434,7 +1438,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
-Package marginnote Info: Margin note 5.7 is on absolute page 5 on input line 23
+Package marginnote Info: Margin note 5.7 is on absolute page 6 on input line 23
 9.
 Package marginnote Info: right page because not two side mode on input line 239
 .
@@ -1509,7 +1513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-Package marginnote Info: Margin note 6.6 is on absolute page 6 on input line 27
+Package marginnote Info: Margin note 6.6 is on absolute page 7 on input line 27
 2.
 Package marginnote Info: right page because not two side mode on input line 272
 .
@@ -1626,7 +1630,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
-Package marginnote Info: Margin note 7.11 is on absolute page 8 on input line 2
+Package marginnote Info: Margin note 7.11 is on absolute page 7 on input line 2
 97.
 Package marginnote Info: right page because not two side mode on input line 297
 .
@@ -1636,17 +1640,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
+Package marginnote Info: Margin note 7.12 is on absolute page 7 on input line 2
+99.
 Package marginnote Info: right page because not two side mode on input line 299
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 299.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 299.
 
 Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
+Package marginnote Info: Margin note 7.13 is on absolute page 8 on input line 3
+01.
 Package marginnote Info: right page because not two side mode on input line 301
 .
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 301.
+Package marginnote Info: xpos seems to be 100.01144pt on input line 301.
 [7]
 Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
@@ -1771,17 +1779,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 396--424
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `cv-espanol.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26258 strings out of 477220
- 509476 string characters out of 5832721
+ 26254 strings out of 477220
+ 509430 string characters out of 5832721
  860124 words of memory out of 5000000
- 45521 multiletter control sequences out of 15000+600000
+ 45517 multiletter control sequences out of 15000+600000
  408957 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,9n,110p,809b,628s stack positions out of 5000i,500n,10000p,200000b,80000s

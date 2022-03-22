@@ -2,6 +2,8 @@
 title: "Cursos de posgrado"
 description: |
  Contenidos de los cursos de posgrado
+image: "imagenes/Cursos-lic.svg"
+output: postcards::trestles
 ---
 
-- Algo por aquí
+[Modelación de nichos y áreas de distribución con MPPs](https://gerardommc.github.io/Modelacion-nichos-distr-PPMs/)

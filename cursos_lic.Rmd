@@ -10,12 +10,10 @@ output: postcards::trestles
 
 - [Planeación y análisis de experimentos (2021-2)](https://gerardommc.github.io/Preparacion-analisis-experimentos/)
 
-- [Estancia de investigación I](https://gerardommc.github.io/Estancia-Investigacion-I/)
-
 # Licenciatura en Ecología
 - [Modelos matemáticos en ecología I (2022-1)](https://gerardommc.github.io/Modelos-matematicos-ECO-I/)
 
 # Licenciatura en Ciencias Ambientales
 - [Modelación matemática (Ciencias Ambientales, 2022-1)](https://gerardommc.github.io/Modelacion-matematica-CA/)
 
-- [Análisis y Modelado Rspacial](https://gerardommc.github.io/Analisis-Modelado-Espacial/)
+- [Análisis y Modelado Espacial](https://gerardommc.github.io/Analisis-Modelado-Espacial/)
