@@ -1,7 +1,7 @@
 ---
 title: "Gerardo Martín"
 description: |
-  ¡Bienvenido vistante!
+  ¡Bienvenid@ vistante!
 image: "imagenes/yo.png"
 links:
   - label: Publicaciones
@@ -14,7 +14,7 @@ links:
     url: "https://twitter.com/MmcGerardo"
 base_url: https://gerardommc.github.io/
 site: distill::distill_website
-output: postcards::trestles
+output: postcards::jolla
 ---
 
 ```{r setup, include=FALSE}
@@ -28,4 +28,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-Mi sitio de *Ecología espacial y aplicada* es una iniciativa para compartir recursos de docencia, mis contribuciones a la ciencia y servir de plataforma de contacto con la comunidad universitaria en general y estudiantes de la [ENES unidad Mérida](https://enesmerida.unam.mx) en particular. Si hay temáticas que te interesan y quieres integrarte a este naciente grupo de trabajo no dudes ponerte en contacto!
+Este sitio es una iniciativa compartir recursos de docencia, las contribuciones a la ciencia del Laboratorio de Ecología Espacial y Aplicada, y servir de plataforma de contacto con la comunidad universitaria en general y estudiantes de la [ENES unidad Mérida](https://enesmerida.unam.mx) en particular. Si hay temáticas que te interesan y quieres integrarte a este naciente grupo de trabajo no dudes ponerte en contacto!

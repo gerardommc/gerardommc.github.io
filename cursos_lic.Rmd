@@ -3,7 +3,7 @@ title: "Cursos de licenciatura"
 description: |
  Contenidos de los cursos de licenciatura ofrecidos por el laboratorio
 image: "imagenes/Cursos-lic.svg"
-output: postcards::trestles
+output: distill::distill_article
 ---
 
 # Licenciatura en Manejo Sustentable de Zonas Costeras
