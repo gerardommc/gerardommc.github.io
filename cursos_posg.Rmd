@@ -7,3 +7,5 @@ output: distill::distill_article
 ---
 
 [Modelación de nichos y áreas de distribución con MPPs](https://gerardommc.github.io/Modelacion-nichos-distr-PPMs/)
+
+[Modelado de nichos ecológicos con procesos de puntos](https://gerardommc.github.io/Curso-modelado-nichos/)
