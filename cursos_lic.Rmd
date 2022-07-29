@@ -17,3 +17,5 @@ output: distill::distill_article
 - [Modelación matemática (Ciencias Ambientales, 2022-1)](https://gerardommc.github.io/Modelacion-matematica-CA/)
 
 - [Análisis y Modelado Espacial](https://gerardommc.github.io/Analisis-Modelado-Espacial/)
+
+- [Introducción a la Estadística](https://gerardommc.github.io/Introduccion-Estadistica-LCA/)
