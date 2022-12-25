@@ -10,6 +10,8 @@ output: distill::distill_article
 
 - [Planeación y análisis de experimentos (2021-2)](https://gerardommc.github.io/Preparacion-analisis-experimentos/)
 
+- [Análisis Multivariado](https://gerardommc.github.io/Analisis-multivariado/)
+
 # Licenciatura en Ecología
 - [Modelos matemáticos en ecología I (2022-1)](https://gerardommc.github.io/Modelos-matematicos-ECO-I/)
 
