@@ -68,23 +68,56 @@ bookmarks, colorlinks, breaklinks,
 ]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
 
+\usepackage{multicol}
+
+%ORCID
+\usepackage{tikz,xcolor,hyperref}
+
+% Make Orcid icon
+\definecolor{lime}{HTML}{A6CE39}
+\DeclareRobustCommand{\orcidicon}{%
+	\begin{tikzpicture}
+	\draw[lime, fill=lime] (0,0) 
+	circle [radius=0.18] 
+	node[white] {{\fontfamily{lmss}\selectfont \tiny ID}};
+	\draw[white, fill=white] (-0.0825,0.099) 
+	circle [radius=0.007];
+	\end{tikzpicture}
+	\hspace{-2mm}
+}
+
+\foreach \x in {A, ..., Z}{%
+	\expandafter\xdef\csname orcid\x\endcsname{\noexpand\href{https://orcid.org/\csname orcidauthor\x\endcsname}{\noexpand\orcidicon}}
+}
+
+\newcommand{\orcidauthorA}{0000-0003-3608-5328}
+
 % DOCUMENT
 \begin{document}
-{\LARGE Gerardo A. Mart\'in Mu\~noz de Cote}\\ [0.5cm]
-{\large Curriculum vit\ae}\\[0.5cm]
+{\LARGE Gerardo Antonio Mart\'in Mu\~noz de Cote \orcidA{}}\\ [0.5cm]
+{\small PhD., MSc. Biol. Cons., MVZ. --- SNI I}\\[0.5cm]
+{\large Curriculumvit\ae}\\
+{\small \today}\\[0.5cm]
 
+\begin{multicols}{2}
 \begin{center}
-		\includegraphics[width=.4\linewidth]{Gerardo-OHRG-1-pequena}
+	\includegraphics[width=.7\linewidth]{yo}
 \end{center}
-\vspace{1cm}
-22 Birkbeck Rd.\\
-London, \texttt{W3 6BG}
-UK\\[.2cm]
-Mobile: \texttt{(+44) 745 304 2948}\\
-email: \href{mailto:gerardommc@gmail.com}{gerardommc@gmail.com}\\
 
+2$^a$ Privada Mapim\'i 610, Colonia Hip\'odromo\\
+Durango, DGO\\
+M\'exico\\[.2cm]
+M\'ovil: \texttt{(+52) 618 116 82-37}\\
+Whatsapp: \texttt{(+52) 618 116 82-37}\\
+E-mail:
+\begin{description}
+	\item[Personal:] \href{mailto:gerardommc@gmail.com}{gerardommc@gmail.com}
+	\item[Institucional:] \href{mailto:gerardo.mmc@enesmerida.unam.mx}{gerardo.mmc@enesmerida.unam.mx}
+\end{description}
 Born:  2 March 1981---Oxford, England\\
-Nationality:  Mexican/British
+Nationality:  Mexicano
+
+\end{multicols}
 
 %%\hrule
 \section*{Education}
@@ -109,6 +142,8 @@ Infectious disease ecology $ \bullet $ Publich Health $ \bullet $ Infectious dis
 
 \section*{Professional experience}
 
+\years{2021-} Associate Lecturer, Escuela Nacional de Estudios Superiores unidad Mérida, Universidad Nacional Aut\'onoma de \'exico.
+
 \years{2020} Pathology and Statistics Lecturer. Bachelor of Veterinary Sciences, Faculty of Veterinary Medicine and Zootechnics, Universidad Juárez del Estado de Durango. Durango, DGO. MX.
 
 \years{2018-2020} Research associate. Ecological Health Research Group (\href{http://murraylab.weebly.com/}{Murray Lab}\footnote{\url{http://murraylab.weebly.com/}}),  Department of Infectious Disease Epidemiology, Faculty of Medicine, Imperial College London at St. Mary's.\\
@@ -128,6 +163,9 @@ Infectious disease ecology $ \bullet $ Publich Health $ \bullet $ Infectious dis
 %\hrule
 \section*{Grants, honors \& awards}
 \noindent
+
+\years{2022-2023} Research project PAPIIT IA200822 \lq\lq Geostatistical estimation of ecological niches and applications in ecology, public health and conservation\rq\rq. \\
+
 \years{2012-2016} Reseach grant of the National Hendra Virus Research Program, Australia. RIRDC PRJ-008213.\\
 
 \years{2010} \emph{Bernardo Villa} award in the 1st Latin-American Congress of Mammalogy. First prize for academic excellence in the category MSc best thesis.\\
@@ -136,6 +174,15 @@ Infectious disease ecology $ \bullet $ Publich Health $ \bullet $ Infectious dis
 
 \subsection*{Journal articles}
 \noindent 
+
+\years{2023} Eyal Goldstein, Joseph J. Erinjery, \textbf{Gerardo Mart\'in}, H. Janaka de Silva, Peter J. Diggle, David G. Lalloo, Kris A. Murray \& Takuya Iwamura. Climate change maladaptation for health: Agricultural practice against shifting seasonal precipitation affects snakebite risk for rural farmers in the tropics. \emph{iScience}. ISSN: 2589-0042 \url{https://doi.org/10.1016/j.isci.2023.105946}.\\
+
+\years{2022} Jos\'e Mar\'ia Guti\'errez, Juliette Borri, Tamara Giles-Vernick, Romain Duda, Abdurazaq Habib, Anita Malhotra, \textbf{Gerardo Mart\'in}, Anna F. V. Pintor, Julien Potet, Terrence Scott, Isabelle Bolon, \& Rafael Ruiz Cata\~neda. Understanding and tackling snakebite envenoming with transdisciplinary research. \emph{PLoS Neglected Tropical Diseases}. ISSN: 1935-2735. \url{https://doi.org/10.1371/journal.pntd.0010897}. \\
+
+\years{2022} \textbf{Gerardo Mart\'in}, Joseph J. Erinjery, Dileepa Ediriweera, David G. Lalloo, H. Janaka de Silva, Takuya Iwamura \& Kris A. Murray. A mechanistic model of snakebite as a zoonosis: envenoming incidence is driven by snake ecology, socioeconomics and its impacts on snakes. \emph{PLoS Neglected Tropical Diseases}. ISSN: 1935-2735. \url{http://dx.doi.org/10.1371/journal.pntd.0009867}.\\
+
+\years{2022} \textbf{Gerardo Mart\'in}, Carlos Y\'a\~nez Arenas \& Xavier Chiappa Carrara. Discrepancies between point process models and environmental envelopes identify the niche centroid-geography configuration. \emph{Ecological Modelling}. ISSN: 0304-3800. \url{https://doi.org/10.1016/j.ecolmodel.2022.109974}.\\
+
 
 \years{2021} \textbf{Gerardo Mar\'in}, Joseph Erinjery, Rikki Gumbs, Ruchira Somaweera, Dileepa Ediriweera, Peter J. Diggle, Anuradhani Kasturiratne, Janaka de Silva, David G. Lalloo, Takuya Iwamura \& Kris A. Murray. Integrating snake distribution, abundance and expert-derived behavioural traits predicts snakebite risk. \emph{Journal of Applied Ecology, En-prensa}.\\
 
@@ -175,8 +222,6 @@ Infectious disease ecology $ \bullet $ Publich Health $ \bullet $ Infectious dis
 
 \subsubsection*{In-review}
 
-\years{2021} \textbf{Gerardo Mart\'in}, Joseph Erinjery, Taluya Iwamura \& Kris A. Murray. \textbf{Redefining snakebite envenoming as a zoonosis: disease incidence is driven by snake ecology, socioeconomics and anthropogenic impacts}. \emph{PLoS Neglected Tropical Diseases}.
-
 \years{2021} \textbf{Mart\'in, Gerardo}; Carlos Y\'a\~nez-Arenas \& Xavier Chiappa-Carrara. \textbf{Discrepancies between PPMs and MVEs identify the niche centroid - geography configuration}. \emph{Ecological Modelling}.
 
 \subsubsection*{Ongoing projects}
@@ -202,6 +247,18 @@ Conversation} \footnote{\url{http://theconversation.com/breaking-up-bat-colonies
 
 
 \subsection*{Talks \& poster presentation}
+
+\years{2022} Congress of Production and Animal Health Sciences, Faculty of Veterinary Medicine and Zootechnics, UNAM, Mexico City. \emph{Ophidism and the ecology of zoonosis in light of global change}, keynote speech.\\
+
+\years{2022} Mexican Scientific Congress of Ecology, Oaxaca, Oax.
+
+\begin{enumerate}
+	\item Oral presentation: \textbf{Identifying the geographic-environmental configuration of ecological niches}
+	\item Poster: \textbf{Ophidism as a dynamic process during global change}
+	\item Poster: \textbf{Agent based models to optimise reef shark protection in marine network protected areas}
+\end{enumerate}
+
+\years{2020} Institutional Seminar, Escuela Nacional de Estudios Superiores unidad Mérida. \textbf{Quantitative bridges between medicine and ecology}. \\
 
 \years{2019} Association for Tropical Biology and Conservation, Asia-Pacific Chapter, Thulhiriya, Sri Lanka. \textbf{Abundance of venomous snakes of Sri Lanka in relation to climate and land cover}.\\
 
@@ -231,6 +288,8 @@ Conversation} \footnote{\url{http://theconversation.com/breaking-up-bat-colonies
 \years{2009} 1st National Congress of Infectious Disease Ecology and Conservation Medicine , Veracruz, Ver., Mexico. \textbf{A model of leptospirosis and the comparisson of its frequency between two sites in the Perote ground squirrel (\emph{Spermophilus perotensis}) and two domestic species}. Talk.\\
 
 \section*{Continuous education}
+
+\years{2022} Formative evaluations for today's education. CUAIEED, UNAM.\\
 
 \years{2018} Workshop. Software carpentry workshop: GIT and Linux shell. Imperial College London. South Kensington.\\
 
