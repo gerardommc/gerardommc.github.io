@@ -10,17 +10,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Revistas arbitradas
 
-- Eyal Goldstein, Joseph J. Erinjery, **Gerardo Martín**, H. Janaka de Silva, Peter J. Diggle, David G. Lalloo, Kris A. Murray & Takuya Iwamura. Climate change maladaptation for health: Agricultural practice against shifting seasonal precipitation affects snakebite risk for rural farmers in the tropics. *iScience*. ISSN: 2589-0042 [https://doi.org/10.1016/j.isci.2023.105946](https://doi.org/10.1016/j.isci.2023.105946)
+- Eyal Goldstein, Joseph J. Erinjery, **Gerardo Martín**, H. Janaka de Silva, Peter J. Diggle, David G. Lalloo, Kris A. Murray & Takuya Iwamura. **Climate change maladaptation for health: Agricultural practice against shifting seasonal precipitation affects snakebite risk for rural farmers in the tropics**. *iScience*. ISSN: 2589-0042 [https://doi.org/10.1016/j.isci.2023.105946](https://doi.org/10.1016/j.isci.2023.105946)
 
-- José María Gutiérrez, Juliette Borri, Tamara Giles-Vernick, Romain Duda, Abdurazaq Habib, Anita Malhotra, **Gerardo Martín**, Anna F. V. Pintor, Julien Potet, Terrence Scott, Isabelle Bolon, & Rafael Ruiz Catañeda. Understanding and tackling snakebite envenoming with transdisciplinary research. *PLoS Neglected Tropical Diseases*. ISSN: 1935-2735. (ttps://doi.org/10.1371/journal.pntd.0010897).
+- José María Gutiérrez, Juliette Borri, Tamara Giles-Vernick, Romain Duda, Abdurazaq Habib, Anita Malhotra, **Gerardo Martín**, Anna F. V. Pintor, Julien Potet, Terrence Scott, Isabelle Bolon, & Rafael Ruiz Catañeda. **Understanding and tackling snakebite envenoming with transdisciplinary research**. *PLoS Neglected Tropical Diseases*. ISSN: 1935-2735. [https://doi.org/10.1371/journal.pntd.0010897](https://doi.org/10.1371/journal.pntd.0010897).
 
-- **Gerardo Martín**, Joseph J. Erinjery, Dileepa Ediriweera, David G. Lalloo, H. Janaka de Silva, Takuya Iwamura & Kris A. Murray. A mechanistic model of snakebite as a zoonosis: envenoming incidence is driven by snake ecology, socioeconomics and its impacts on snakes. *PLoS Neglected Tropical Diseases*. ISSN: 1935-2735. [http://dx.doi.org/10.1371/journal.pntd.0009867](http://dx.doi.org/10.1371/journal.pntd.0009867).
+- **Gerardo Martín**, Joseph J. Erinjery, Dileepa Ediriweera, David G. Lalloo, H. Janaka de Silva, Takuya Iwamura & Kris A. Murray. **A mechanistic model of snakebite as a zoonosis: envenoming incidence is driven by snake ecology, socioeconomics and its impacts on snakes**. *PLoS Neglected Tropical Diseases*. ISSN: 1935-2735. [http://dx.doi.org/10.1371/journal.pntd.0009867](http://dx.doi.org/10.1371/journal.pntd.0009867).
 
-- **Gerardo Martín**, Carlos Yáñez Arenas & Xavier Chiappa Carrara. Discrepancies between point process models and environmental envelopes identify the niche centroid-geography configuration. *Ecological Modelling*. ISSN: 0304-3800. [https://doi.org/10.1016/j.ecolmodel.2022.109974](https://doi.org/10.1016/j.ecolmodel.2022.109974).
+- **Gerardo Martín**, Carlos Yáñez Arenas & Xavier Chiappa Carrara. **Discrepancies between point process models and environmental envelopes identify the niche centroid-geography configuration**. *Ecological Modelling*. ISSN: 0304-3800. [https://doi.org/10.1016/j.ecolmodel.2022.109974](https://doi.org/10.1016/j.ecolmodel.2022.109974).
 
-- **Gerardo Martín**, Joseph Erinjery, Rikki Gumbs, Ruchira Somaweera, Dileepa Ediriweera, Peter J. Diggle, Anuradhani Kasturiratne, Janaka de Silva, David G. Lalloo, Takuya Iwamura & Kris A. Murray (2021). **Integrating snake distribution, abundance and expert-derived behavioural traits predicts snakebite risk**. *Journal of Applied Ecology, En-prensa*. Impacto JCR: 5.8.\\
+- **Gerardo Martín**, Joseph Erinjery, Rikki Gumbs, Ruchira Somaweera, Dileepa Ediriweera, Peter J. Diggle, Anuradhani Kasturiratne, Janaka de Silva, David G. Lalloo, Takuya Iwamura & Kris A. Murray (2021). **Integrating snake distribution, abundance and expert-derived behavioural traits predicts snakebite risk**. *Journal of Applied Ecology, En-prensa*. Impacto JCR: 5.8. [https://doi.org/10.1111/1365-2664.14081](https://doi.org/10.1111/1365-2664.14081)
 
-- **Gerardo Martín**, Joseph Erinjery, Dileepa Ediriweera, David G. Lalloo, Takuya Iwamura & Kris A. Murray (2021). **Redefining snakebite as a zoonosis: disease incidence is driven by snake ecology, socioeconomics and anthropogenic impacts**. *MedRXiv*. [https://doi.org/10.1101/2021.10.01.21264438](https://doi.org/10.1101/2021.10.01.21264438).\\
+- **Gerardo Martín**, Joseph Erinjery, Dileepa Ediriweera, David G. Lalloo, Takuya Iwamura & Kris A. Murray (2021). **Redefining snakebite as a zoonosis: disease incidence is driven by snake ecology, socioeconomics and anthropogenic impacts**. *MedRXiv*. [https://doi.org/10.1101/2021.10.01.21264438](https://doi.org/10.1101/2021.10.01.21264438).
 
 - **Gerardo Martín**, Carlos Yáñez-Arenas, Rodrigo Rangel-Camacho, Kris A Murray, Eyal Goldstein, Takuya Iwamura & Xavier Chiappa-Carrara. (2021). **Implications of global environmental change for the burden of snakebite**. *Toxicon:X*. [https://doi.org/10.1016/j.toxcx.2021.100069](https://doi.org/10.1016/j.toxcx.2021.100069). Impacto JCR: 2.2.
 
@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Laura A. Brannelly, **Gerardo Martíin**, John Lewellyn, Lee Skerratt & Lee Berger (2018). **Size dependant susceptibility to chytridiomycosis in the invasive *Rhinella marina* **. *Diseases of Aquatic Organisms*. 131:107-120. ISSN: 01775103. eISSN: 16161580. [https://doi.org/10.3354/dao03278](https://doi.org/10.3354/dao03278). Impacto JCR: 1.7.
 
-- **Gerardo Martín**, Carlos Yáñez-Arenas, Raina K. Plowright, Carla Chen & Lee Skerratt (2018). **Hendra virus spillover is a bimodal system driven by climatic factors**. *EcoHealth*. 15: 526–542. ISSN: 16129202. eISSN: 16129210. \url{https://doi.org/10.1007/s10393-017-1309-y}. Impacto JCR: 2.2
+- **Gerardo Martín**, Carlos Yáñez-Arenas, Raina K. Plowright, Carla Chen & Lee Skerratt (2018). **Hendra virus spillover is a bimodal system driven by climatic factors**. *EcoHealth*. 15: 526–542. ISSN: 16129202. eISSN: 16129210. [https://doi.org/10.1007/s10393-017-1309-y](https://doi.org/10.1007/s10393-017-1309-y). Impacto JCR: 2.2
 
 - **Gerardo Martín**, Carlos Yáñez-Arenas, Raina K. Plowright, Carla Chen & Lee Skerratt (2018). **Climate change could increase the extent of areas at risk of Hendra virus spillover**. *EcoHealth*. 15: 509–525. ISSN: 16129202. eISSN: 16129210. [https://doi.org/10.1007/s10393-018-1322-9](https://doi.org/10.1007/s10393-018-1322-9). Impacto JCR: 2.2.
 
