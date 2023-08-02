@@ -17,6 +17,8 @@ output: distill::distill_article
 
 - [Ecología de poblaciones](https://gerardommc.github.io/Ecologia-poblaciones/)
 
+- [Ecología teórica](https://gerardommc.github.io/Ecologia-Teorica/)
+
 # Licenciatura en Ciencias Ambientales
 - [Modelación matemática (Ciencias Ambientales, 2022-1)](https://gerardommc.github.io/Modelacion-matematica-CA/)
 
