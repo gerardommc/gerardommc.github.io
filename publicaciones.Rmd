@@ -60,6 +60,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Divulgación
 
+- **Gerardo Martín** (2023). **Snakebites work like other diseases from wild animals**. [Kudos](https://www.growkudos.com/publications/10.1371%25252Fjournal.pntd.0009867/reader).
+
+- **Gerardo Martín** (2022). **Integrating snake distribution, abundance and expert-derived behavioural traits to predict snakebite risk**. [The Applied Ecoogist](https://appliedecologistsblog.com/2021/12/27/integrating-snake-distribution-abundance-and-expert-derived-behavioural-traits-to-predict-snakebite-risk/).
+
+- **Gerardo Martín** and Kris Murray (2022). **The eco-epidemiology of snakebite and the benefits of redefining as a zoonosis**. [*London Centre of for Tropical Disease Research*](pubs/Martin - Eco-snakebite.pdf)
+
 - **Gerardo Martín** and Kris Murray (2021). **Anticipating the impact of global change on snakebite envenoming**. [*London Centre for Tropical Disease Research*](pubs/Martin - Anticipating impacts.pdf).
 
 - Colin Simpfendofer; **Gerardo Martín**, Mario Espinoza & Michelle Heupel (2020). **Protected high-value reefs and movement pathways improve conservation of reef sharks**. [*The Applied Ecologist*](https://appliedecologistsblog.com/2020/07/30/protected-high-value-reefs-and-movement-pathways-improve-conservation-of-reef-sharks/)
