@@ -455,8 +455,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2064,7 +2071,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2157,196 +2164,40 @@ Docencia
 <div class="d-article">
 <h1 id="revistas-arbitradas">Revistas arbitradas</h1>
 <ul>
-<li><p>Eyal Goldstein, Joseph J. Erinjery, <strong>Gerardo
-Martín</strong>, H. Janaka de Silva, Peter J. Diggle, David G. Lalloo,
-Kris A. Murray &amp; Takuya Iwamura. <strong>Climate change
-maladaptation for health: Agricultural practice against shifting
-seasonal precipitation affects snakebite risk for rural farmers in the
-tropics</strong>. <em>iScience</em>. ISSN: 2589-0042 <a
-href="https://doi.org/10.1016/j.isci.2023.105946">https://doi.org/10.1016/j.isci.2023.105946</a></p></li>
-<li><p>José María Gutiérrez, Juliette Borri, Tamara Giles-Vernick,
-Romain Duda, Abdurazaq Habib, Anita Malhotra, <strong>Gerardo
-Martín</strong>, Anna F. V. Pintor, Julien Potet, Terrence Scott,
-Isabelle Bolon, &amp; Rafael Ruiz Catañeda. <strong>Understanding and
-tackling snakebite envenoming with transdisciplinary research</strong>.
-<em>PLoS Neglected Tropical Diseases</em>. ISSN: 1935-2735. <a
-href="https://doi.org/10.1371/journal.pntd.0010897">https://doi.org/10.1371/journal.pntd.0010897</a>.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Joseph J. Erinjery, Dileepa
-Ediriweera, David G. Lalloo, H. Janaka de Silva, Takuya Iwamura &amp;
-Kris A. Murray. <strong>A mechanistic model of snakebite as a zoonosis:
-envenoming incidence is driven by snake ecology, socioeconomics and its
-impacts on snakes</strong>. <em>PLoS Neglected Tropical Diseases</em>.
-ISSN: 1935-2735. <a
-href="http://dx.doi.org/10.1371/journal.pntd.0009867">http://dx.doi.org/10.1371/journal.pntd.0009867</a>.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez Arenas &amp; Xavier
-Chiappa Carrara. <strong>Discrepancies between point process models and
-environmental envelopes identify the niche centroid-geography
-configuration</strong>. <em>Ecological Modelling</em>. ISSN: 0304-3800.
-<a
-href="https://doi.org/10.1016/j.ecolmodel.2022.109974">https://doi.org/10.1016/j.ecolmodel.2022.109974</a>.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Joseph Erinjery, Rikki Gumbs,
-Ruchira Somaweera, Dileepa Ediriweera, Peter J. Diggle, Anuradhani
-Kasturiratne, Janaka de Silva, David G. Lalloo, Takuya Iwamura &amp;
-Kris A. Murray (2021). <strong>Integrating snake distribution, abundance
-and expert-derived behavioural traits predicts snakebite risk</strong>.
-<em>Journal of Applied Ecology, En-prensa</em>. Impacto JCR: 5.8. <a
-href="https://doi.org/10.1111/1365-2664.14081">https://doi.org/10.1111/1365-2664.14081</a></p></li>
-<li><p><strong>Gerardo Martín</strong>, Joseph Erinjery, Dileepa
-Ediriweera, David G. Lalloo, Takuya Iwamura &amp; Kris A. Murray (2021).
-<strong>Redefining snakebite as a zoonosis: disease incidence is driven
-by snake ecology, socioeconomics and anthropogenic impacts</strong>.
-<em>MedRXiv</em>. <a
-href="https://doi.org/10.1101/2021.10.01.21264438">https://doi.org/10.1101/2021.10.01.21264438</a>.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez-Arenas, Rodrigo
-Rangel-Camacho, Kris A Murray, Eyal Goldstein, Takuya Iwamura &amp;
-Xavier Chiappa-Carrara. (2021). <strong>Implications of global
-environmental change for the burden of snakebite</strong>.
-<em>Toxicon:X</em>. <a
-href="https://doi.org/10.1016/j.toxcx.2021.100069">https://doi.org/10.1016/j.toxcx.2021.100069</a>.
-Impacto JCR: 2.2.</p></li>
-<li><p>Eyal Goldstein, Joseph Erinjery, <strong>Gerardo Martín</strong>,
-Anuradhani Kasturiratne, Dileepa Ediriweera, H. Janaka de Silva, Peter
-J. Diggle, David G. Lalloo, Kris A. Murray &amp; Takyua Iwamura. (2021).
-<strong>Integrating human behavior and snake ecology with agent-based
-models to predict snakebite in high risk landscapes</strong>. <em>PLoS
-Neglected Tropical Diseases</em>. <a
-href="https://doi.org/10.1371/journal.pntd.0009047">https://doi.org/10.1371/journal.pntd.0009047</a>.
-Impacto JCR: 4.4</p></li>
-<li><p>Carlos Yáñez-Arenas, <strong>Gerardo Martín</strong>, Luis
-Osorio-Olvera, Jazmín Escobar-Luján, Sandra Castaño-Quintero &amp;
-Enrique Martínez-Meyer. (2020). <strong>The niche centrality hypothesis:
-key points about unfilled niches and the potential use of supraspecific
-modeling units</strong>. <em>Biodiversity Informatics</em>. <a
-href="https://doi.org/10.17161/bi.v15i2.13218">https://doi.org/10.17161/bi.v15i2.13218</a>.
-Impacto JCR: <em>En proceso</em>.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Mario Espinoza, Michelle Heupel
-&amp; Colin Simpfendorfer (2020). <strong>Estimating marine protected
-area network benefits for reef sharks</strong>. <em>Journal of Applied
-Ecology</em>. eISSN: 1365-2664. <a
-href="https://doi.org/10.1111/1365-2664.13706">https://doi.org/10.1111/1365-2664.13706</a>.
-Impacto JCR: 5.7</p></li>
-<li><p>Kris Murray, <strong>Gerardo Martín</strong> &amp; Takuya Iwamura
-(2019). <strong>Focus on snake ecology to fight snakebite</strong>.
-<em>The Lancet</em>. (19) 325. ISSN: 01406736. <a
-href="https://doi.org/10.1016/S0140-6736(19)32510-3">https://doi.org/10.1016/S0140-6736(19)32510-3</a>.
-Impacto JCR: 59.1</p></li>
-<li><p><strong>Gerardo Martín</strong>, Daniel Becker, Alex Washburn
-&amp; Raina K. Plowright (2018) <strong>Environmental persistence of
-influenza H5N1 is driven by temperature and salinity: insights from a
-Bayesian meta-analysis</strong>. <em>Frontiers in Ecology and
-Evolution</em>. eISSN: 2296701X. <a
-href="https://doi.org/10.3389/fevo.2018.00131">https://doi.org/10.3389/fevo.2018.00131</a>.
-Impacto JCR: 2.7.</p></li>
-<li><p>Laura A. Brannelly, <strong>Gerardo Martíin</strong>, John
-Lewellyn, Lee Skerratt &amp; Lee Berger (2018). <strong>Size dependant
-susceptibility to chytridiomycosis in the invasive <em>Rhinella
-marina</em> </strong>. <em>Diseases of Aquatic Organisms</em>.
-131:107-120. ISSN: 01775103. eISSN: 16161580. <a
-href="https://doi.org/10.3354/dao03278">https://doi.org/10.3354/dao03278</a>.
-Impacto JCR: 1.7.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez-Arenas, Raina K.
-Plowright, Carla Chen &amp; Lee Skerratt (2018). <strong>Hendra virus
-spillover is a bimodal system driven by climatic factors</strong>.
-<em>EcoHealth</em>. 15: 526–542. ISSN: 16129202. eISSN: 16129210. <a
-href="https://doi.org/10.1007/s10393-017-1309-y">https://doi.org/10.1007/s10393-017-1309-y</a>.
-Impacto JCR: 2.2</p></li>
-<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez-Arenas, Raina K.
-Plowright, Carla Chen &amp; Lee Skerratt (2018). <strong>Climate change
-could increase the extent of areas at risk of Hendra virus
-spillover</strong>. <em>EcoHealth</em>. 15: 509–525. ISSN: 16129202.
-eISSN: 16129210. <a
-href="https://doi.org/10.1007/s10393-018-1322-9">https://doi.org/10.1007/s10393-018-1322-9</a>.
-Impacto JCR: 2.2.</p></li>
-<li><p>Calos Yáñez Arenas, Rodolfo Rioja-Nieto, Felipe Dzul-Manzanilla,
-<strong>Gerardo Martín</strong>, Xavier Chiappa-Carrara, Aura
-Buenfil-Ávila, Pablo Manrique-Saide, Fabián Correa-Morales, José Alberto
-Díaz-Quiñonez, Cresecencio Pérez-Rentería, José Ordoñez-Álvarez &amp;
-Herón Huerta (2017). <strong>Characterization of environmental
-suitability for the Asian tiger mosquito (<em>Aedes albopictus</em>) in
-México</strong>. <em>Journal of Medical Entomology</em>. ISSN: 19382928.
-eISSN: 00222585. 55(1):69–77. <a
-href="https://doi.org/10.1093/jme/tjx185">https://doi.org/10.1093/jme/tjx185</a>.
-Impacto JCR: 1.7.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Rebecca J. Webb, Raina K.
-Plowright, Carla Chen &amp; Lee F. Skerratt (2017).
-<strong>Microclimates might limit indirect spillover of the bat borne
-zoonotic Hendra virus</strong>. <em>Microbial ecology</em>. 74: 106–115.
-ISSN: 1432184X. <a
-href="https://doi.org/10.1007/s00248-017-0934-x">https://doi.org/10.1007/s00248-017-0934-x</a>.
-Impacto JCR: 3.6.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Lee Skerratt, Carlos
-Yáñez-Arenas, Raina K. Plowright &amp; Carla Chen (2016).
-<strong>Climatic suitability influences species specific abundance
-patterns of Australian flying foxes and risk of Hendra virus
-spillover</strong>. <em>One Health Journal</em>. 2: 115-121. ISSN:
-23527714. <a
-href="https://doi.org/10.1016/j.onehlt.2016.07.004">https://doi.org/10.1016/j.onehlt.2016.07.004</a>.
-Impacto JCR: 2.0.</p></li>
-<li><p>Alison J. Peel, Hume E. Field, Peter A. Reid, Raina K. Plowright,
-Christopher C. Broder, Lee F. Skerratt, David T. S. Hayman, Olivier
-Restif, Melanie Taylor, <strong>Gerardo Martín</strong>, Gary Crameri,
-Ina Smith, Michelle Baker, Glenn A. Marsh, Jennifer Barr, Andrew C.
-Breed, James L. N. Wood, Navneet Dhand, Jenny-Ann Toribio, Andrew A.
-Cunningham, Ian Fulton, Wayne L. Bryden, Cristy Secombe &amp; Lin-Fa
-Wang (2016). <strong>The equine Hendra virus vaccine remains a highly
-effective preventative measure against infection in horses and humans:
-“The imperative to develop a human vaccine for the Hendra virus in
-Australia”</strong>. <em>Infection Ecology and Epidemiology</em>.
-6(1):31658. ISSN: 20008686. <a
-href="https://doi.org/10.3402/iee.v6.31658">https://doi.org/10.3402/iee.v6.31658</a>.
-Impacto JCR: 2.0.</p></li>
-<li><p><strong>Gerardo Martín</strong>, Raina K. Plowright, Carla Chen,
-David Kault, Paul Selleck &amp; Lee F. Skerratt (2015). <strong>Hendra
-virus survival does not explain the pattern of transmission and
-implicates relatively direct transmission routes</strong>. <em>Journal
-of General Virology</em>. 96(6). ISSN: 00221317. eISSN: 14652099. <a
-href="https://doi.org/10.1099/vir.0.000073">https://doi.org/10.1099/vir.0.000073</a>.
-Impacto JCR: 2.8.</p></li>
-<li><p>Raina Plowright, Peggy Eby, Peter Hudson, Ina Smith, David
-Westcott, Wayne Bryden, Deborah Middleton, Peter Reid, Rosemary
-McFarlane, <strong>Gerardo Martín</strong>, Gary Tabor, Lee Skerratt,
-Dale Anderson, Gary Crameri, David Quammen, David Jordan, Paul Freeman,
-Lin-Fa Wang, Jonathan Epstein, Glenn Marsh, Nina Kung &amp; Hamish
-McCallum (2015). <strong>Ecological Dynamics of Emerging Bat Virus
-Spillover</strong>. <em>\emph{</em>Proceedings of the Royal Society B*.
-282(1798). ISSN: 09628452. <a
-href="https://doi.org/10.1098/rspb.2014.2124">https://doi.org/10.1098/rspb.2014.2124</a>.
-Impacto JCR: 4.3.</p></li>
-<li><p>Rosaura Valdez-Lares, <strong>Gerardo A. Martín-Muñoz de
-Cote.</strong>, Raúl Muñiz-Martínez &amp; Georgina Santos-Barrera
-(2013). <strong>New distributional records for amphibians from Durango,
-México</strong>. <em>Herpetological Review</em>. 44 (4): 646-649. ISSN:
-0018084X. <a href="https://bit.ly/2zIsM3R">https://bit.ly/2zIsM3R</a>.
-Impacto JCR: 0.6.</p></li>
+<li><p>Eyal Goldstein, Joseph J. Erinjery, <strong>Gerardo Martín</strong>, H. Janaka de Silva, Peter J. Diggle, David G. Lalloo, Kris A. Murray &amp; Takuya Iwamura. <strong>Climate change maladaptation for health: Agricultural practice against shifting seasonal precipitation affects snakebite risk for rural farmers in the tropics</strong>. <em>iScience</em>. ISSN: 2589-0042 <a href="https://doi.org/10.1016/j.isci.2023.105946">https://doi.org/10.1016/j.isci.2023.105946</a></p></li>
+<li><p>José María Gutiérrez, Juliette Borri, Tamara Giles-Vernick, Romain Duda, Abdurazaq Habib, Anita Malhotra, <strong>Gerardo Martín</strong>, Anna F. V. Pintor, Julien Potet, Terrence Scott, Isabelle Bolon, &amp; Rafael Ruiz Catañeda. <strong>Understanding and tackling snakebite envenoming with transdisciplinary research</strong>. <em>PLoS Neglected Tropical Diseases</em>. ISSN: 1935-2735. <a href="https://doi.org/10.1371/journal.pntd.0010897">https://doi.org/10.1371/journal.pntd.0010897</a>.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Joseph J. Erinjery, Dileepa Ediriweera, David G. Lalloo, H. Janaka de Silva, Takuya Iwamura &amp; Kris A. Murray. <strong>A mechanistic model of snakebite as a zoonosis: envenoming incidence is driven by snake ecology, socioeconomics and its impacts on snakes</strong>. <em>PLoS Neglected Tropical Diseases</em>. ISSN: 1935-2735. <a href="http://dx.doi.org/10.1371/journal.pntd.0009867">http://dx.doi.org/10.1371/journal.pntd.0009867</a>.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez Arenas &amp; Xavier Chiappa Carrara. <strong>Discrepancies between point process models and environmental envelopes identify the niche centroid-geography configuration</strong>. <em>Ecological Modelling</em>. ISSN: 0304-3800. <a href="https://doi.org/10.1016/j.ecolmodel.2022.109974">https://doi.org/10.1016/j.ecolmodel.2022.109974</a>.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Joseph Erinjery, Rikki Gumbs, Ruchira Somaweera, Dileepa Ediriweera, Peter J. Diggle, Anuradhani Kasturiratne, Janaka de Silva, David G. Lalloo, Takuya Iwamura &amp; Kris A. Murray (2021). <strong>Integrating snake distribution, abundance and expert-derived behavioural traits predicts snakebite risk</strong>. <em>Journal of Applied Ecology, En-prensa</em>. Impacto JCR: 5.8. <a href="https://doi.org/10.1111/1365-2664.14081">https://doi.org/10.1111/1365-2664.14081</a></p></li>
+<li><p><strong>Gerardo Martín</strong>, Joseph Erinjery, Dileepa Ediriweera, David G. Lalloo, Takuya Iwamura &amp; Kris A. Murray (2021). <strong>Redefining snakebite as a zoonosis: disease incidence is driven by snake ecology, socioeconomics and anthropogenic impacts</strong>. <em>MedRXiv</em>. <a href="https://doi.org/10.1101/2021.10.01.21264438">https://doi.org/10.1101/2021.10.01.21264438</a>.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez-Arenas, Rodrigo Rangel-Camacho, Kris A Murray, Eyal Goldstein, Takuya Iwamura &amp; Xavier Chiappa-Carrara. (2021). <strong>Implications of global environmental change for the burden of snakebite</strong>. <em>Toxicon:X</em>. <a href="https://doi.org/10.1016/j.toxcx.2021.100069">https://doi.org/10.1016/j.toxcx.2021.100069</a>. Impacto JCR: 2.2.</p></li>
+<li><p>Eyal Goldstein, Joseph Erinjery, <strong>Gerardo Martín</strong>, Anuradhani Kasturiratne, Dileepa Ediriweera, H. Janaka de Silva, Peter J. Diggle, David G. Lalloo, Kris A. Murray &amp; Takyua Iwamura. (2021). <strong>Integrating human behavior and snake ecology with agent-based models to predict snakebite in high risk landscapes</strong>. <em>PLoS Neglected Tropical Diseases</em>. <a href="https://doi.org/10.1371/journal.pntd.0009047">https://doi.org/10.1371/journal.pntd.0009047</a>. Impacto JCR: 4.4</p></li>
+<li><p>Carlos Yáñez-Arenas, <strong>Gerardo Martín</strong>, Luis Osorio-Olvera, Jazmín Escobar-Luján, Sandra Castaño-Quintero &amp; Enrique Martínez-Meyer. (2020). <strong>The niche centrality hypothesis: key points about unfilled niches and the potential use of supraspecific modeling units</strong>. <em>Biodiversity Informatics</em>. <a href="https://doi.org/10.17161/bi.v15i2.13218">https://doi.org/10.17161/bi.v15i2.13218</a>. Impacto JCR: <em>En proceso</em>.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Mario Espinoza, Michelle Heupel &amp; Colin Simpfendorfer (2020). <strong>Estimating marine protected area network benefits for reef sharks</strong>. <em>Journal of Applied Ecology</em>. eISSN: 1365-2664. <a href="https://doi.org/10.1111/1365-2664.13706">https://doi.org/10.1111/1365-2664.13706</a>. Impacto JCR: 5.7</p></li>
+<li><p>Kris Murray, <strong>Gerardo Martín</strong> &amp; Takuya Iwamura (2019). <strong>Focus on snake ecology to fight snakebite</strong>. <em>The Lancet</em>. (19) 325. ISSN: 01406736. <a href="https://doi.org/10.1016/S0140-6736(19)32510-3">https://doi.org/10.1016/S0140-6736(19)32510-3</a>. Impacto JCR: 59.1</p></li>
+<li><p><strong>Gerardo Martín</strong>, Daniel Becker, Alex Washburn &amp; Raina K. Plowright (2018) <strong>Environmental persistence of influenza H5N1 is driven by temperature and salinity: insights from a Bayesian meta-analysis</strong>. <em>Frontiers in Ecology and Evolution</em>. eISSN: 2296701X. <a href="https://doi.org/10.3389/fevo.2018.00131">https://doi.org/10.3389/fevo.2018.00131</a>. Impacto JCR: 2.7.</p></li>
+<li><p>Laura A. Brannelly, <strong>Gerardo Martíin</strong>, John Lewellyn, Lee Skerratt &amp; Lee Berger (2018). <strong>Size dependant susceptibility to chytridiomycosis in the invasive <em>Rhinella marina</em> </strong>. <em>Diseases of Aquatic Organisms</em>. 131:107-120. ISSN: 01775103. eISSN: 16161580. <a href="https://doi.org/10.3354/dao03278">https://doi.org/10.3354/dao03278</a>. Impacto JCR: 1.7.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez-Arenas, Raina K. Plowright, Carla Chen &amp; Lee Skerratt (2018). <strong>Hendra virus spillover is a bimodal system driven by climatic factors</strong>. <em>EcoHealth</em>. 15: 526–542. ISSN: 16129202. eISSN: 16129210. <a href="https://doi.org/10.1007/s10393-017-1309-y">https://doi.org/10.1007/s10393-017-1309-y</a>. Impacto JCR: 2.2</p></li>
+<li><p><strong>Gerardo Martín</strong>, Carlos Yáñez-Arenas, Raina K. Plowright, Carla Chen &amp; Lee Skerratt (2018). <strong>Climate change could increase the extent of areas at risk of Hendra virus spillover</strong>. <em>EcoHealth</em>. 15: 509–525. ISSN: 16129202. eISSN: 16129210. <a href="https://doi.org/10.1007/s10393-018-1322-9">https://doi.org/10.1007/s10393-018-1322-9</a>. Impacto JCR: 2.2.</p></li>
+<li><p>Calos Yáñez Arenas, Rodolfo Rioja-Nieto, Felipe Dzul-Manzanilla, <strong>Gerardo Martín</strong>, Xavier Chiappa-Carrara, Aura Buenfil-Ávila, Pablo Manrique-Saide, Fabián Correa-Morales, José Alberto Díaz-Quiñonez, Cresecencio Pérez-Rentería, José Ordoñez-Álvarez &amp; Herón Huerta (2017). <strong>Characterization of environmental suitability for the Asian tiger mosquito (<em>Aedes albopictus</em>) in México</strong>. <em>Journal of Medical Entomology</em>. ISSN: 19382928. eISSN: 00222585. 55(1):69–77. <a href="https://doi.org/10.1093/jme/tjx185">https://doi.org/10.1093/jme/tjx185</a>. Impacto JCR: 1.7.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Rebecca J. Webb, Raina K. Plowright, Carla Chen &amp; Lee F. Skerratt (2017). <strong>Microclimates might limit indirect spillover of the bat borne zoonotic Hendra virus</strong>. <em>Microbial ecology</em>. 74: 106–115. ISSN: 1432184X. <a href="https://doi.org/10.1007/s00248-017-0934-x">https://doi.org/10.1007/s00248-017-0934-x</a>. Impacto JCR: 3.6.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Lee Skerratt, Carlos Yáñez-Arenas, Raina K. Plowright &amp; Carla Chen (2016). <strong>Climatic suitability influences species specific abundance patterns of Australian flying foxes and risk of Hendra virus spillover</strong>. <em>One Health Journal</em>. 2: 115-121. ISSN: 23527714. <a href="https://doi.org/10.1016/j.onehlt.2016.07.004">https://doi.org/10.1016/j.onehlt.2016.07.004</a>. Impacto JCR: 2.0.</p></li>
+<li><p>Alison J. Peel, Hume E. Field, Peter A. Reid, Raina K. Plowright, Christopher C. Broder, Lee F. Skerratt, David T. S. Hayman, Olivier Restif, Melanie Taylor, <strong>Gerardo Martín</strong>, Gary Crameri, Ina Smith, Michelle Baker, Glenn A. Marsh, Jennifer Barr, Andrew C. Breed, James L. N. Wood, Navneet Dhand, Jenny-Ann Toribio, Andrew A. Cunningham, Ian Fulton, Wayne L. Bryden, Cristy Secombe &amp; Lin-Fa Wang (2016). <strong>The equine Hendra virus vaccine remains a highly effective preventative measure against infection in horses and humans: “The imperative to develop a human vaccine for the Hendra virus in Australia”</strong>. <em>Infection Ecology and Epidemiology</em>. 6(1):31658. ISSN: 20008686. <a href="https://doi.org/10.3402/iee.v6.31658">https://doi.org/10.3402/iee.v6.31658</a>. Impacto JCR: 2.0.</p></li>
+<li><p><strong>Gerardo Martín</strong>, Raina K. Plowright, Carla Chen, David Kault, Paul Selleck &amp; Lee F. Skerratt (2015). <strong>Hendra virus survival does not explain the pattern of transmission and implicates relatively direct transmission routes</strong>. <em>Journal of General Virology</em>. 96(6). ISSN: 00221317. eISSN: 14652099. <a href="https://doi.org/10.1099/vir.0.000073">https://doi.org/10.1099/vir.0.000073</a>. Impacto JCR: 2.8.</p></li>
+<li><p>Raina Plowright, Peggy Eby, Peter Hudson, Ina Smith, David Westcott, Wayne Bryden, Deborah Middleton, Peter Reid, Rosemary McFarlane, <strong>Gerardo Martín</strong>, Gary Tabor, Lee Skerratt, Dale Anderson, Gary Crameri, David Quammen, David Jordan, Paul Freeman, Lin-Fa Wang, Jonathan Epstein, Glenn Marsh, Nina Kung &amp; Hamish McCallum (2015). <strong>Ecological Dynamics of Emerging Bat Virus Spillover</strong>. <em>\emph{</em>Proceedings of the Royal Society B*. 282(1798). ISSN: 09628452. <a href="https://doi.org/10.1098/rspb.2014.2124">https://doi.org/10.1098/rspb.2014.2124</a>. Impacto JCR: 4.3.</p></li>
+<li><p>Rosaura Valdez-Lares, <strong>Gerardo A. Martín-Muñoz de Cote.</strong>, Raúl Muñiz-Martínez &amp; Georgina Santos-Barrera (2013). <strong>New distributional records for amphibians from Durango, México</strong>. <em>Herpetological Review</em>. 44 (4): 646-649. ISSN: 0018084X. <a href="https://bit.ly/2zIsM3R">https://bit.ly/2zIsM3R</a>. Impacto JCR: 0.6.</p></li>
 </ul>
 <h1 id="reportes-oficiales">Reportes oficiales</h1>
 <ul>
-<li>Lee F. Skerratt &amp; <strong>Gerardo Martín</strong> (2017).
-<strong>Models that predict risk of Hendra virus transmission from
-flying foxes to horses</strong>. <em>Agrifutures Thoroughbred
-Horses</em>.</li>
+<li>Lee F. Skerratt &amp; <strong>Gerardo Martín</strong> (2017). <strong>Models that predict risk of Hendra virus transmission from flying foxes to horses</strong>. <em>Agrifutures Thoroughbred Horses</em>.</li>
 </ul>
 <h1 id="divulgación">Divulgación</h1>
 <ul>
-<li><p><strong>Gerardo Martín</strong> and Kris Murray (2021).
-<strong>Anticipating the impact of global change on snakebite
-envenoming</strong>. <a
-href="pubs/Martin%20-%20Anticipating%20impacts.pdf"><em>London Centre
-for Tropical Disease Research</em></a>.</p></li>
-<li><p>Colin Simpfendofer; <strong>Gerardo Martín</strong>, Mario
-Espinoza &amp; Michelle Heupel (2020). <strong>Protected high-value
-reefs and movement pathways improve conservation of reef
-sharks</strong>. <a
-href="https://appliedecologistsblog.com/2020/07/30/protected-high-value-reefs-and-movement-pathways-improve-conservation-of-reef-sharks/"><em>The
-Applied Ecologist</em></a></p></li>
-<li><p>Jon Luly, <strong>Gerardo Martín</strong> &amp; Lee Skerratt
-(2013). <strong>Breaking up bat colonies doesn’t eliminate health
-risks</strong>. <a
-href="http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580"><em>The
-Conversation</em></a>.</p></li>
+<li><p><strong>Gerardo Martín</strong> and Kris Murray (2021). <strong>Anticipating the impact of global change on snakebite envenoming</strong>. <a href="pubs/Martin%20-%20Anticipating%20impacts.pdf"><em>London Centre for Tropical Disease Research</em></a>.</p></li>
+<li><p>Colin Simpfendofer; <strong>Gerardo Martín</strong>, Mario Espinoza &amp; Michelle Heupel (2020). <strong>Protected high-value reefs and movement pathways improve conservation of reef sharks</strong>. <a href="https://appliedecologistsblog.com/2020/07/30/protected-high-value-reefs-and-movement-pathways-improve-conservation-of-reef-sharks/"><em>The Applied Ecologist</em></a></p></li>
+<li><p>Jon Luly, <strong>Gerardo Martín</strong> &amp; Lee Skerratt (2013). <strong>Breaking up bat colonies doesn’t eliminate health risks</strong>. <a href="http://theconversation.com/breaking-up-bat-colonies-doesnt-eliminate-health-risks-13580"><em>The Conversation</em></a>.</p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

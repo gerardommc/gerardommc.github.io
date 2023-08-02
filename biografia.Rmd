@@ -1,7 +1,7 @@
 ---
 title: "Biografía"
 image: "imagenes/bio.svg"
-output: postcards::trestles
+output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
