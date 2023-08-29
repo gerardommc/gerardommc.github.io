@@ -19,6 +19,8 @@ output: distill::distill_article
 
 - [Ecología teórica](https://gerardommc.github.io/Ecologia-Teorica/)
 
+- [Biogeografía y macroecología](https://gerardommc.github.io/Biogeo-Macroecologia/)
+
 # Licenciatura en Ciencias Ambientales
 - [Modelación matemática (Ciencias Ambientales, 2022-1)](https://gerardommc.github.io/Modelacion-matematica-CA/)
 
