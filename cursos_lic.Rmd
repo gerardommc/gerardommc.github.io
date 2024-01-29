@@ -17,7 +17,9 @@ output: distill::distill_article
 
 - [Ecología de poblaciones](https://gerardommc.github.io/Ecologia-poblaciones/)
 
-- [Ecología teórica](https://gerardommc.github.io/Ecologia-Teorica/)
+- [Ecología teórica I](https://gerardommc.github.io/Ecologia-Teorica/)
+
+- [Ecologia teórica II](https://gerardommc.github.io/Ecologia-Teorica-II/)
 
 - [Biogeografía y macroecología](https://gerardommc.github.io/Biogeo-Macroecologia/)
 
