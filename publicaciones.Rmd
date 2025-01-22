@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Revistas arbitradas
 
+- **Gerardo Martín**, Joseph James Erinjery, Dileepa Ediriweera, Eyal Goldstein, Ruchira Somaweera, Prof H Janaka de Silva,  David G Lalloo, Takuya Iwamura & Kris A Murray. **Effects of global change on snakebite envenoming incidence up to 2050: a modelling assessment**. *The Lancet Planetary Health*. [https://doi.org/10.1016/S2542-5196(24)00141-4](https://doi.org/10.1016/S2542-5196(24)00141-4)
+
 - Eyal Goldstein, Joseph J. Erinjery, **Gerardo Martín**, H. Janaka de Silva, Peter J. Diggle, David G. Lalloo, Kris A. Murray & Takuya Iwamura. **Climate change maladaptation for health: Agricultural practice against shifting seasonal precipitation affects snakebite risk for rural farmers in the tropics**. *iScience*. ISSN: 2589-0042 [https://doi.org/10.1016/j.isci.2023.105946](https://doi.org/10.1016/j.isci.2023.105946)
 
 - José María Gutiérrez, Juliette Borri, Tamara Giles-Vernick, Romain Duda, Abdurazaq Habib, Anita Malhotra, **Gerardo Martín**, Anna F. V. Pintor, Julien Potet, Terrence Scott, Isabelle Bolon, & Rafael Ruiz Catañeda. **Understanding and tackling snakebite envenoming with transdisciplinary research**. *PLoS Neglected Tropical Diseases*. ISSN: 1935-2735. [https://doi.org/10.1371/journal.pntd.0010897](https://doi.org/10.1371/journal.pntd.0010897).
@@ -50,7 +52,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - **Gerardo Martín**, Raina K. Plowright, Carla Chen, David Kault, Paul Selleck \& Lee F. Skerratt (2015). **Hendra virus survival does not explain the pattern of transmission and implicates relatively direct transmission routes**. *Journal of General Virology*. 96(6). ISSN: 00221317. eISSN: 14652099. [https://doi.org/10.1099/vir.0.000073](https://doi.org/10.1099/vir.0.000073). Impacto JCR: 2.8.
 
-- Raina Plowright, Peggy Eby, Peter Hudson, Ina Smith, David Westcott, Wayne Bryden, Deborah Middleton, Peter Reid, Rosemary McFarlane, **Gerardo Martín**, Gary Tabor, Lee Skerratt, Dale Anderson, Gary Crameri, David Quammen, David Jordan, Paul Freeman, Lin-Fa Wang, Jonathan Epstein, Glenn Marsh, Nina Kung & Hamish McCallum (2015). **Ecological Dynamics of Emerging Bat Virus Spillover**. *\emph{*Proceedings of the Royal Society B*.  282(1798). ISSN: 09628452. [https://doi.org/10.1098/rspb.2014.2124](https://doi.org/10.1098/rspb.2014.2124). Impacto JCR: 4.3.
+- Raina Plowright, Peggy Eby, Peter Hudson, Ina Smith, David Westcott, Wayne Bryden, Deborah Middleton, Peter Reid, Rosemary McFarlane, **Gerardo Martín**, Gary Tabor, Lee Skerratt, Dale Anderson, Gary Crameri, David Quammen, David Jordan, Paul Freeman, Lin-Fa Wang, Jonathan Epstein, Glenn Marsh, Nina Kung & Hamish McCallum (2015). **Ecological Dynamics of Emerging Bat Virus Spillover**. *Proceedings of the Royal Society B*.  282(1798). ISSN: 09628452. [https://doi.org/10.1098/rspb.2014.2124](https://doi.org/10.1098/rspb.2014.2124). Impacto JCR: 4.3.
 
 - Rosaura Valdez-Lares, **Gerardo A. Martín-Muñoz de Cote.**, Raúl Muñiz-Martínez & Georgina Santos-Barrera (2013). **New distributional records for amphibians from Durango, México**. *Herpetological Review*. 44 (4): 646-649. ISSN: 0018084X. [https://bit.ly/2zIsM3R](https://bit.ly/2zIsM3R). Impacto JCR: 0.6.
 
@@ -60,9 +62,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Divulgación
 
-- **Gerardo Martín** (2023). **Snakebites work like other diseases from wild animals**. [Kudos](https://www.growkudos.com/publications/10.1371%25252Fjournal.pntd.0009867/reader).
+- **Gerardo Martín** (2024). **Ecología, más allá de la teoría: acciones por Yucatán**. [*La Jornada Maya*](https://www.lajornadamaya.mx/opinion/239885/ecologia-mas-alla-de-la-teoria-acciones-por-yucatan-enes-merida-licenciatura-en-ecologia?fbclid=IwZXh0bgNhZW0CMTEAAR2Hr0J4G5dg4AUF1my44-tFHsCSkOGubjrVqPHGqmGg9ilyM11NQyXEoYk_aem_z42Zb4dzd-X9Vj1vUxZpVw&sfnsn=scwspwa)
 
-- **Gerardo Martín** (2022). **Integrating snake distribution, abundance and expert-derived behavioural traits to predict snakebite risk**. [The Applied Ecologist](https://appliedecologistsblog.com/2021/12/27/integrating-snake-distribution-abundance-and-expert-derived-behavioural-traits-to-predict-snakebite-risk/).
+- **Gerardo Martín**. (2024) **¿Por qué estudiar Ecología en la ENES unidad Mérida, UNAM?**. [*La Jornada Maya*](https://www.lajornadamaya.mx/opinion/226078/por-que-estudiar-ecologia-en-la-enes-unidad-merida-unam)
+
+- **Gerardo Martín** (2023). **Snakebites work like other diseases from wild animals**. [*Kudos*](https://www.growkudos.com/publications/10.1371%25252Fjournal.pntd.0009867/reader).
+
+- **Gerardo Martín** (2022). **Integrating snake distribution, abundance and expert-derived behavioural traits to predict snakebite risk**. [*The Applied Ecologist*](https://appliedecologistsblog.com/2021/12/27/integrating-snake-distribution-abundance-and-expert-derived-behavioural-traits-to-predict-snakebite-risk/).
 
 - **Gerardo Martín** and Kris Murray (2022). **The eco-epidemiology of snakebite and the benefits of redefining as a zoonosis**. [*London Centre of for Tropical Disease Research*](pubs/Martin - Eco-snakebite.pdf)
 
